@@ -3,12 +3,56 @@
     <title>Mega65 Alternate Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2024-07-22T10:59:55+02:00</updated>
+    <updated>2024-07-22T12:36:37+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
     <id>https://kugelblitz360.github.io/m65-altcores</id>
 
+    <entry>
+        <title>ffsdfs</title>
+        <author>
+            <name>Boris Schneider-Johne</name>
+        </author>
+        <link href="https://kugelblitz360.github.io/m65-altcores/ffsdfs.html"/>
+        <id>https://kugelblitz360.github.io/m65-altcores/ffsdfs.html</id>
+
+        <updated>2024-07-22T12:36:37+02:00</updated>
+            <summary>
+                <![CDATA[
+                    gfgsdfgdfsgg
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>gfgsdfgdfsgg</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Computer Cores</title>
+        <author>
+            <name>Boris Schneider-Johne</name>
+        </author>
+        <link href="https://kugelblitz360.github.io/m65-altcores/computer-cores.html"/>
+        <id>https://kugelblitz360.github.io/m65-altcores/computer-cores.html</id>
+
+        <updated>2024-07-22T12:22:41+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Available cores C64 ZX Spectrum In development (not available yet) Apple 2 VIC-20
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Available cores
+C64
+ZX Spectrum</p><p>In development (not available yet)
+Apple 2
+VIC-20</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Alternate Cores</title>
         <author>
@@ -20,7 +64,7 @@
         <updated>2024-07-22T10:59:55+02:00</updated>
             <summary>
                 <![CDATA[
-                    What are “alternative” MEGA65 cores? From day one, the MEGA65 was designed to be the spiritual successor of the legendary Commodore 65! But the MEGA65 is much more than “just” that. It is also a MEGA versatile FPGA-based machine, a chameleon, that can turn itself&hellip;
+                    What are “alternative” MEGA65 cores? From day one, the MEGA65 was designed to be the spiritual successor of the legendary Commodore 65! But the MEGA65&hellip;
                 ]]>
             </summary>
         <content type="html">
