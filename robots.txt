@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kugelblitz360.github.io/m65-altcores/sitemap.xml
