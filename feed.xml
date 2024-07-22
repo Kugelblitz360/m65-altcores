@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2024-07-22T15:09:51+02:00</updated>
+    <updated>2024-07-22T15:14:54+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -260,7 +260,7 @@ The Core only supports a PAL C64 system. Programs that only work correctly on NT
         </content>
     </entry>
     <entry>
-        <title>Alternate Cores</title>
+        <title>MEGA65 Alternative Cores</title>
         <author>
             <name>Boris Schneider-Johne</name>
         </author>
