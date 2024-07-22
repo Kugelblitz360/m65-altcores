@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2024-07-22T16:23:50+02:00</updated>
+    <updated>2024-07-22T16:27:55+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -20,7 +20,7 @@
         <updated>2024-07-22T15:18:18+02:00</updated>
             <summary>
                 <![CDATA[
-                    Alternative Core Type Status R6 Version MEGA65 File Host Link Project Page Apple II Home Computer In Dev. No Click here n/a Bomb Jack Arcade&hellip;
+                    Alternative Core Type Status R6 Version MEGA65 File Host Link Project Page Apple II Home Computer In Dev. n/a Click here Bomb Jack Arcade Machine&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -40,9 +40,9 @@
 <td><strong>Apple II</strong></td>
 <td><a href="computer-cores.html">Home Computer</a></td>
 <td>In Dev.</td>
-<td>No</td>
-<td><a href="https://github.com/lydon42/Apple-II_MEGA65">Click here</a></td>
+<td></td>
 <td>n/a</td>
+<td><a href="https://github.com/lydon42/Apple-II_MEGA65">Click here</a></td>
 </tr>
 <tr>
 <td><strong>Bomb Jack</strong></td>
@@ -104,7 +104,7 @@
 <td><strong>Ghosts ‘n Goblins</strong></td>
 <td><a href="arcade-cores.html">Arcade Machine</a></td>
 <td>Fully functional</td>
-<td><strong>YES</strong></td>
+<td>No</td>
 <td><a href="https://files.mega65.org?id=e563df76-e12f-47de-9bb2-cca4ebe1e18d">Download here</a></td>
 <td><a href="https://github.com/sho3string/GnGMEGA65">Click here</a></td>
 </tr>
@@ -120,7 +120,7 @@
 <td><strong>Wonderboy</strong></td>
 <td><a href="arcade-cores.html">Arcade Machine</a></td>
 <td>Fully functional</td>
-<td><strong>YES</strong></td>
+<td><strong>Yes</strong></td>
 <td><a href="https://files.mega65.org?id=7365cb17-4375-45d3-a833-a89a38266c5e">Download here</a></td>
 <td><a href="https://github.com/sho3string/SEGASYS1MEGA65">Click here</a></td>
 </tr>
