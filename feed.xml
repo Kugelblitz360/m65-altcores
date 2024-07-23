@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2024-07-23T11:13:42+02:00</updated>
+    <updated>2024-07-23T11:16:26+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -164,7 +164,7 @@
                 <p>The MEGA65 can also be turned into an arcade game machine. As many early arcade games rely on fast reaction times, an FPGA-based recreation is much more faithful than software emulation. Unfortunately, arcade games usually require a complete FPGA slot for a single game.</p><h2 id="important-details-about-arcade-games">Important Details about Arcade Games</h2>
 <p>To recreate the game two parts are needed: An FPGA Core and image files for the ROMs. The Core is like a Core for a home computer and only has the “hardware” part of the machine. It still requires the actual software, which is a seperate file even if the Core can only play one specific game. Arcade Game ROMs are available in many flavours on internet, but the Core usually require a very specific format. You need to read the instructions per Core very carefully and follow them to the letter to create the correct files. This in some cases requires <em>Python</em> on your computer. Due to copyright and licensing reasons, there is no official archive where Cores and ROMs and bundled ready to use.</p><p>Some Arcade Machine Cores support “DIP Switches”. This refers to the switches on the arcade board itself and these are shown on screen. <strong>Do not open the MEGA65 to change the DIP switches inside.</strong></p><p>The Cores on this page are sorted in reverse chronological order of Core release. The newest releases are on top, the oldest on the bottom. By this you can see if there is something new.</p><h1 id="cores-available-for-all-mega65">Cores Available for all MEGA65</h1>
 <h2 id="bomb-jack">Bomb Jack</h2>
-<img loading="lazy" src="bombjack.png" style="float:right;width:200px" data-is-external-image="true">
+<img loading="lazy" src="BombJack.png" style="float:right;width:200px" data-is-external-image="true">
 Bomb Jack is an Arcade game by Tecmo from 1984.
 
 <p><a href="https://en.wikipedia.org/wiki/Bomb_Jack">https://en.wikipedia.org/wiki/Bomb_Jack</a></p><p>Please follow the exact installation instructions from here:</p><p><a href="https://github.com/sho3string/BombjackMEGA65">https://github.com/sho3string/BombjackMEGA65</a></p><p>Download the Core from the MEGA65 filehost here:</p><p><a href="https://files.mega65.org?id=7365cb17-4375-45d3-a833-a89a38266c5e">https://files.mega65.org?id=7365cb17-4375-45d3-a833-a89a38266c5e</a></p><h2 id="wonder-boy--sega-system-1">Wonder Boy / Sega System 1</h2>
