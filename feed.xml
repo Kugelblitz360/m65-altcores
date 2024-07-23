@@ -3,12 +3,32 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2024-07-23T11:18:05+02:00</updated>
+    <updated>2024-07-23T11:52:40+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
     <id>https://kugelblitz360.github.io/m65-altcores</id>
 
+    <entry>
+        <title>Game Console Cores</title>
+        <author>
+            <name>Boris Schneider-Johne</name>
+        </author>
+        <link href="https://kugelblitz360.github.io/m65-altcores/game-console-cores.html"/>
+        <id>https://kugelblitz360.github.io/m65-altcores/game-console-cores.html</id>
+
+        <updated>2024-07-23T11:27:18+02:00</updated>
+            <summary>
+                <![CDATA[
+                    Not done yet
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Not done yet</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Alphabetic Core Overview</title>
         <author>
@@ -162,7 +182,7 @@
         <content type="html">
             <![CDATA[
                 <p>The MEGA65 can also be turned into an arcade game machine. As many early arcade games rely on fast reaction times, an FPGA-based recreation is much more faithful than software emulation. Unfortunately, arcade games usually require a complete FPGA slot for a single game.</p><h2 id="important-details-about-arcade-games">Important Details about Arcade Games</h2>
-<p>To recreate the game two parts are needed: An FPGA Core and image files for the ROMs. The Core is like a Core for a home computer and only has the “hardware” part of the machine. It still requires the actual software, which is a seperate file even if the Core can only play one specific game. Arcade Game ROMs are available in many flavours on internet, but the Core usually require a very specific format. You need to read the instructions per Core very carefully and follow them to the letter to create the correct files. This in some cases requires <em>Python</em> on your computer. Due to copyright and licensing reasons, there is no official archive where Cores and ROMs and bundled ready to use.</p><p>Some Arcade Machine Cores support “DIP Switches”. This refers to the switches on the arcade board itself and these are shown on screen. <strong>Do not open the MEGA65 to change the DIP switches inside.</strong></p><p>The Cores on this page are sorted in reverse chronological order of Core release. The newest releases are on top, the oldest on the bottom. By this you can see if there is something new.</p><h1 id="cores-available-for-all-mega65">Cores Available for all MEGA65</h1>
+<p>To recreate the game two parts are needed: An FPGA Core and image files for the ROMs. The Core is like a Core for a home computer and only has the “hardware” part of the machine. It still requires the actual software, which is a seperate file, even if the Core can only play one specific game. Arcade Game ROMs are available in many flavours on internet, but the Core usually requires a very specific format. You need to read the instructions per Core very carefully and follow them to the letter to create the correct files. This in some cases requires <em>Python</em> on your computer. Due to copyright and licensing reasons, there is no official archive where Cores and ROMs sre bundled ready to use.</p><p>Some Arcade Machine Cores support “DIP Switches”. This refers to the switches on the arcade board itself and these are shown on screen. <strong>Do not open the MEGA65 to change the DIP switches inside.</strong></p><p>The Cores on this page are sorted in reverse chronological order of Core release. The newest releases are on top, the oldest on the bottom. By this you can see if there is something new.</p><h1 id="cores-available-for-all-mega65">Cores Available for all MEGA65</h1>
 <h2 id="bomb-jack">Bomb Jack</h2>
 <img loading="lazy" src="BombJack.png" style="float:right;width:200px" data-is-external-image="true">
 Bomb Jack is an Arcade game by Tecmo from 1984.
@@ -335,124 +355,20 @@ The Core only supports a PAL C64 system. Programs that only work correctly on NT
         <updated>2024-07-22T10:59:55+02:00</updated>
             <summary>
                 <![CDATA[
-                    What are “alternative” MEGA65 cores? From day one, the MEGA65 was designed to be the spiritual successor of the legendary Commodore 65! But the MEGA65&hellip;
+                    What are “alternative” MEGA65 cores? From day one, the MEGA65 was designed to be the spiritual successor of the legendary Commodore 65. To realize that&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h2 id="what-are-alternative-mega65-cores">What are “alternative” MEGA65 cores?</h2>
-<p>From day one, the MEGA65 was designed to be the spiritual successor of the legendary Commodore 65!
-But the MEGA65 is much more than “just” that. It is also a MEGA versatile FPGA-based machine, a <strong>chameleon</strong>, that can turn itself into
-any other machine you can imagine. All you need to perform this feat is an “alternative” MEGA65 core.</p><p>Please note: An alternative MEGA65 core is <strong>not</strong> an emulation of a certain hardware. Instead, it is a rebuild of the actual hardware itself.
-Admittedly in most cases not a 100% exact rebuild. But still in general much better than any software emulator.</p><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/m65cores/gh-pages/doc/retro.png" data-is-external-image="true">
+<p>From day one, the MEGA65 was designed to be the spiritual successor of the legendary Commodore 65. To realize that goal and stay future proof, the MEGA65 is based on something called a FPGA - “Field-programmable Gate Array”. Think of it as “programmable hardware”. Usually the CPU inside a computer is pure hardware: It is manufactured and can’t be changed by a user. An FPGA can be (within technical limits) any CPU you imagine and so can, like a chamelon, literally become a C64, Arcade Machine or Gameboy.</p><p>This is not what people usually refer to as <strong>emulation</strong>. An Emulator is a program that runs on a CPU and translates each command into instructions the CPU can understand. It’s like have a translator at your side when you do not speak the language. An FPGA runs the code as if it IS that CPU. The analogy is that you learn the language yourself and can speak it like your mothers tongue.</p><img loading="lazy" src="retrodesktop.png" data-is-external-image="true">
 
-<p>Oliver Graf aka lydon made a <a href="https://youtu.be/9Ib7z64z9N4">great YouTube explainer video</a> about recreating retro systems using FPGAs,
-about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video
-before reading on here, as it will provide you with valuable context.</p><h2 id="what-alternative-mega65-cores-are-available">What alternative MEGA65 cores are available?</h2>
-<table>
-<thead>
-<tr>
-<th align="left"></th>
-<th align="left">Alternative Core</th>
-<th align="left">Status</th>
-<th align="left">MEGA65 File Host Link</th>
-<th align="left">Project page</th>
-<th align="left">Report Issue</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/m65cores/gh-pages/doc/appleII.jpg" width="200" data-is-external-image="true"></td>
-<td align="left"><strong>Apple II</strong></td>
-<td align="left">In development</td>
-<td align="left">n/a</td>
-<td align="left"><a href="https://github.com/lydon42/Apple-II_MEGA65">Click here</a></td>
-<td align="left">n/a</td>
-</tr>
-<tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/m65cores/gh-pages/doc/bombjack.jpg" width="200" data-is-external-image="true"></td>
-<td align="left"><strong>Bomb Jack (Arcade)</strong></td>
-<td align="left">Fully functional</td>
-<td align="left"><a href="https://files.mega65.org?id=f3ddcbd5-a6c1-42cd-aa9c-db25dfd71c90">Download here</a></td>
-<td align="left"><a href="https://github.com/sho3string/BombjackMEGA65">Click here</a></td>
-<td align="left"><a href="https://github.com/sho3string/BombjackMEGA65/issues">Issues</a></td>
-</tr>
-<tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/m65cores/gh-pages/doc/burningrubber.png" width="200" data-is-external-image="true"></td>
-<td align="left"><strong>Burning Rubber (Arcade)</strong></td>
-<td align="left">Fully functional</td>
-<td align="left"><a href="https://files.mega65.org?id=6a96f6de-2673-40c0-9304-5720fe8ce144">Download here</a></td>
-<td align="left"><a href="https://github.com/sho3string/BurningRubberMEGA65">Click here</a></td>
-<td align="left"><a href="https://github.com/sho3string/BurningRubberMEGA65/issues">Issues</a></td>
-</tr>
-<tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/m65cores/gh-pages/doc/bosconian.jpg" width="200" data-is-external-image="true"></td>
-<td align="left"><strong>Bosconian (Arcade)</strong></td>
-<td align="left">Fully functional</td>
-<td align="left"><a href="https://files.mega65.org?id=96dd324b-d611-4252-bea4-0dbc4eb899ae">Download here</a></td>
-<td align="left"><a href="https://github.com/sho3string/BosconianMEGA65">Click here</a></td>
-<td align="left"><a href="https://github.com/sho3string/BosconianMEGA65/issues">Issues</a></td>
-</tr>
-<tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/MJoergen/C64MEGA65/master/doc/c64.jpg" width="200" data-is-external-image="true"></td>
-<td align="left"><strong>Commodore 64</strong></td>
-<td align="left">Fully functional</td>
-<td align="left"><a href="https://files.mega65.org?id=896a012f-59e4-456c-b91f-7e989b958241">Download here</a></td>
-<td align="left"><a href="https://github.com/MJoergen/C64MEGA65">Click here</a></td>
-<td align="left"><a href="https://github.com/MJoergen/C64MEGA65/issues">Issues</a></td>
-</tr>
-<tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/m65cores/gh-pages/doc/elevator.png" width="200" data-is-external-image="true"></td>
-<td align="left"><strong>Elevator Action (Arcade)</strong></td>
-<td align="left">In development</td>
-<td align="left">n/a</td>
-<td align="left"><a href="https://github.com/sho3string/ElevatorActionMEGA65">Click here</a></td>
-<td align="left">n/a</td>
-</tr>
-<tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/gbc4mega65/master/doc/gb-and-gbc.jpg" width="200" data-is-external-image="true"></td>
-<td align="left"><strong>Game Boy and Game Boy Color</strong></td>
-<td align="left">Fully functional</td>
-<td align="left"><a href="https://files.mega65.org?id=03b68172-d6ff-49f0-971e-15bea2c6ad9a">Download here</a></td>
-<td align="left"><a href="https://github.com/sy2002/gbc4mega65/">Click here</a></td>
-<td align="left"><a href="https://github.com/sy2002/gbc4mega65/issues">Issues</a></td>
-</tr>
-<tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/m65cores/gh-pages/doc/galaga.jpg" height="200" data-is-external-image="true"></td>
-<td align="left"><strong>Galaga (Arcade)</strong></td>
-<td align="left">Fully functional</td>
-<td align="left"><a href="https://files.mega65.org?id=8bc248e3-c29c-4ba8-b8c3-6018a995a9ea">Download here</a></td>
-<td align="left"><a href="https://github.com/sho3string/GalagaMEGA65">Click here</a></td>
-<td align="left"><a href="https://github.com/sho3string/GalagaMEGA65/issues">Issues</a></td>
-</tr>
-<tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/m65cores/gh-pages/doc/xevious.png" height="200" data-is-external-image="true"></td>
-<td align="left"><strong>Super Xevious (Arcade)</strong></td>
-<td align="left">Fully functional</td>
-<td align="left"><a href="https://files.mega65.org?id=d32474e9-6f30-48f8-bba3-167cad4bbc4f">Download here</a></td>
-<td align="left"><a href="https://github.com/sho3string/XeviousMEGA65">Click here</a></td>
-<td align="left"><a href="https://github.com/sho3string/XeviousMEGA65/issues">Issues</a></td>
-</tr>
-<tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/m65cores/gh-pages/doc/VIC-20.jpg" height="200" data-is-external-image="true"></td>
-<td align="left"><strong>VIC-20</strong></td>
-<td align="left">In development</td>
-<td align="left">n/a</td>
-<td align="left"><a href="https://github.com/MJoergen/VIC20MEGA65">Click here</a></td>
-<td align="left">n/a</td>
-</tr>
-<tr>
-<td align="left"><img loading="lazy" src="https://raw.githubusercontent.com/sy2002/zxuno4mega65/master/doc/wiki/assets/ZXSpectrum48k.jpg" width="200" data-is-external-image="true"></td>
-<td align="left"><strong>ZX Spectrum</strong></td>
-<td align="left">Fully functional</td>
-<td align="left"><a href="https://files.mega65.org?id=bdaeb7e0-9fc8-4185-99de-104d01229f27">Download here</a></td>
-<td align="left"><a href="https://github.com/sy2002/zxuno4mega65">Click here</a></td>
-<td align="left"><a href="https://github.com/sy2002/zxuno4mega65/issues">Issues</a></td>
-</tr>
-</tbody></table>
-<h2 id="can-i-add-a-core-to-this-list">Can I add a core to this list?</h2>
-<p>Please message me on Discord (<code>sy2002#5425</code>), write me an email to <code>code</code> at <code>sy2002</code> dot <code>de</code>,
-create an <a href="https://github.com/sy2002/m65cores/issues">Issue</a> or create a <a href="https://github.com/sy2002/m65cores/pulls">Pull Request</a>,
-if you think this list is incomplete and/or want me to add your project (work-in-progress projects are welcome!).</p>
+
+<p>Recreation of retro hardware via FPGA is not perfect. While most of the weirdest details can be identical to a real machine, there still are some obscure effects that might have fallen through the cracks. Still, because the timing of all the components in the FPGA is much closer to the real thing than in emulation, you usually get an extremly high fidelity.</p><p>So, an “Alternative” Core is basically a new language for the FPGA inside the MEGA65. It turns it into a different system. The MEGA65 has seven “slots” so you can immediately switch between them, and you can reprogram those slots with any of the Cores seen on these pages.</p><p>Oliver Graf aka <em>lydon</em> made a <a href="https://youtu.be/9Ib7z64z9N4">great YouTube explanation video</a> about recreating retro systems using FPGAs,
+about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
+<p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. Please refer to the page <a href="creating-new-cores-for-mega65.html">Creating new Cores</a> for more details.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
+<p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="can-i-add-a-core-to-this-list">Can I add a core to this list?</h2>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#98;&#x6f;&#114;&#x69;&#x73;&#64;&#100;&#x72;&#101;&#x69;&#115;&#101;&#x63;&#104;&#122;&#x69;&#x67;&#46;&#x6e;&#x65;&#116;">&#98;&#x6f;&#114;&#x69;&#x73;&#64;&#100;&#x72;&#101;&#x69;&#115;&#101;&#x63;&#104;&#122;&#x69;&#x67;&#46;&#x6e;&#x65;&#116;</a>. Updates on Work-in-Progress are also very welcome.</p>
             ]]>
         </content>
     </entry>
