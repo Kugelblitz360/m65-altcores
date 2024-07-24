@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2024-07-24T22:25:12+02:00</updated>
+    <updated>2024-07-24T22:28:16+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -231,13 +231,13 @@ Wonder Boy is an Arcade game by Sega from 1986.
             </summary>
         <content type="html">
             <![CDATA[
-                <p>The MEGA65 was produced in several revisions that have slight internal hardware changes. Unfortunately this results in Cores needing specific versions based on your MEGA65 version.</p><h2 id="if-you-are-a-new-mega65-user">If you are a new MEGA65 user</h2>
-<p>All recent MEGA65 computers are <strong>R6</strong> machines, meaning it is the sixth revision of the hardware. If your MEGA65 was shipped to you in 2024 or later and if it has a serial number higher than 1000, you are in the <strong>R6</strong> group.
-The bad news: Some Cores might not be fully adapted to the R6 board yet and can’t be installed.</p><h2 id="if-you-already-had-a-mega65-before-2024">If you already had a MEGA65 before 2024</h2>
-<p>Most likely you do have a <strong>R3</strong> machine (there are others but if you have on of these you definitely know what kind of machine you have). Currently every released Core is available for R3 machines and should also be in the future. So, if a core is available in two versions, use the R3 version. Cores for other revisions can’t be installed.</p><h2 id="how-to-be-really-sure-about-your-mega65">How to be really sure about your MEGA65</h2>
+                <p>The MEGA65 was produced in several revisions that have slight internal hardware changes. Unfortunately this results in Cores needing specific versions based on your MEGA65 model.</p><h2 id="if-you-are-a-new-mega65-user">If you are a new MEGA65 user</h2>
+<p>All recent MEGA65 computers are <strong>R6</strong> models, meaning it is the sixth revision of the hardware. If your MEGA65 was shipped to you in 2024 or later and if it has a serial number higher than 1000, you are in the <strong>R6</strong> group.
+The bad news: Some Cores might not be fully adapted to the R6 model yet and can’t be installed.</p><h2 id="if-you-already-had-a-mega65-before-2024">If you already had a MEGA65 before 2024</h2>
+<p>Most likely you do have a <strong>R3</strong> model (there are others but if you have on of these you definitely know what kind of machine you have). Currently every released Core is available for R3 models and should also be in the future. So, if a core is available in two versions, use the R3 version. Cores for other models can’t be installed.</p><h2 id="how-to-be-really-sure-about-your-mega65">How to be really sure about your MEGA65</h2>
 <p>When you turn on the MEGA65 in the native MEGA65 core, press the <kbd>RESTORE</kbd> key for two seconds and enter the “freezer”. Now press the <kbd>HELP</kbd> key to enter the “Megainfo”. Your board revision will be shown on the screen as “MEGA65 MODEL”.
 <img loading="lazy" src="megainfo.jpg" data-is-external-image="true"></p><h2 id="how-to-find-the-correct-core-files">How to find the correct Core files</h2>
-<p>Most alternative Cores come in a .ZIP file that contains specific files for the board revisions and have <strong>R3</strong> or <strong>R6</strong> in the filename. Just pick the right one. Some cores even have specific versions for other Rx revisions.</p><h2 id="can-i-damage-my-mega65-with-a-wrong-core">Can I damage my MEGA65 with a wrong core?</h2>
+<p>Most alternative Cores come in a .ZIP file that contains specific files for the board revisions and have <strong>R3</strong> or <strong>R6</strong> in the filename. Just pick the right one. Some cores even have specific versions for other Rx models.</p><h2 id="can-i-damage-my-mega65-with-a-wrong-core">Can I damage my MEGA65 with a wrong core?</h2>
 <p>With all known Cores it is not possible to install them when they are not the correct version. You will get a “Core hardware model mismatch!” error. Even if that mechanism fails, the Core should not damage the MEGA65. Make sure you do not install a Core into Slot 0, which has the fail-safe system to always install a correct Core into slots 1 to 7.
 <img loading="lazy" src="coremismatch.jpg" data-is-external-image="true"></p>
             ]]>
@@ -371,7 +371,7 @@ The Core only supports a PAL C64 system. Programs that only work correctly on NT
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
 <p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. Please refer to the page <a href="creating-new-cores-for-mega65.html">Creating new Cores</a> for more details.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
 <p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="can-i-add-a-core-to-this-list">Can I add a core to this list?</h2>
-<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#98;&#111;&#x72;&#105;&#x73;&#64;&#x64;&#x72;&#x65;&#x69;&#115;&#101;&#x63;&#104;&#122;&#x69;&#x67;&#x2e;&#110;&#x65;&#x74;">&#98;&#111;&#x72;&#105;&#x73;&#64;&#x64;&#x72;&#x65;&#x69;&#115;&#101;&#x63;&#104;&#122;&#x69;&#x67;&#x2e;&#110;&#x65;&#x74;</a>. Updates on Work-in-Progress are also very welcome.</p>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#x62;&#111;&#114;&#105;&#x73;&#64;&#100;&#x72;&#101;&#105;&#115;&#x65;&#99;&#104;&#122;&#105;&#x67;&#x2e;&#110;&#x65;&#x74;">&#x62;&#111;&#114;&#105;&#x73;&#64;&#100;&#x72;&#101;&#105;&#115;&#x65;&#99;&#104;&#122;&#105;&#x67;&#x2e;&#110;&#x65;&#x74;</a>. Updates on Work-in-Progress are also very welcome.</p>
             ]]>
         </content>
     </entry>
