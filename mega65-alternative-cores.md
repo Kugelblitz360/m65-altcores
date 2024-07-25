@@ -1,3 +1,5 @@
+This is a test, please ignore.
+
 ## What are "alternative" MEGA65 cores?
 
 From day one, the [MEGA65](https://mega65.org/) was designed to be the spiritual successor of the legendary Commodore 65. To realize that goal and stay future proof, the MEGA65 is based on something called a FPGA - "Field-programmable Gate Array". Think of it as "programmable hardware". Usually the CPU inside a computer is pure hardware: It is manufactured and can't be changed by a user. An FPGA can be (within technical limits) any CPU you imagine and so can, like a chamelon, literally become a C64, Arcade Machine or Gameboy.
