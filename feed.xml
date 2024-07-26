@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2024-07-25T10:51:55+02:00</updated>
+    <updated>2024-07-26T09:51:47+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -40,12 +40,19 @@
         <updated>2024-07-23T11:27:18+02:00</updated>
             <summary>
                 <![CDATA[
-                    Not done yet
+                    Cores Available for all MEGA65 Currently no Core for Game Consoles is available for the R6 models. The Game Boy is a portable game console&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>Not done yet</p>
+                <h1 id="cores-available-for-all-mega65">Cores Available for all MEGA65</h1>
+<p>Currently no Core for Game Consoles is available for the R6 models.</p><h1 id="cores-available-for-r3-models-of-mega65">Cores Available for R3 models of MEGA65</h1>
+<h2 id="game-boy--game-boy-color">Game Boy / Game Boy Color</h2>
+<img loading="lazy" src="gb-and-gbc.jpg" data-is-external-image="true">
+
+<p>The Game Boy is a portable game console released by Nintendo in 1989. It was followed by the backwards compatible Game Boy Color in 1998. It is best known for making Tetris a pop culture phenomenon in the early Nineties.</p><p><a href="https://en.wikipedia.org/wiki/Game_Boy">https://en.wikipedia.org/wiki/Game_Boy</a></p><img loading="lazy" src="gbc07.jpg" data-is-external-image="true">
+
+<p>This early Core for the MEGA65 has some minor shortcomings. As C64-Joysticks officially only have one button, you can map the Game Boy buttons <kbd>A</kbd> or <kbd>B</kbd> to <kbd>Joystick Up</kbd> so that you can play jump and run games as you would on a C64. All Game Boy buttons, including <kbd>Start</kbd> and <kbd>Select</kbd> can be pressed via the MEGA65 keyboard.</p><p>The Core can load ROM files for the Game Boy and Game Boy Color. It features an unlicensed BIOS that can be replaced by the user with official BIOS files.</p><p>For further instructions please read:</p><p><a href="https://github.com/sy2002/gbc4mega65/blob/master/README.md">https://github.com/sy2002/gbc4mega65/blob/master/README.md</a></p><p>The Core can be downloaded here:</p><p><a href="https://files.mega65.org?id=03b68172-d6ff-49f0-971e-15bea2c6ad9a">https://files.mega65.org?id=03b68172-d6ff-49f0-971e-15bea2c6ad9a</a></p>
             ]]>
         </content>
     </entry>
@@ -60,7 +67,7 @@
         <updated>2024-07-22T15:18:18+02:00</updated>
             <summary>
                 <![CDATA[
-                    Alternative Core Type Status R6 Version MEGA65 File Host Link Project Page Apple II Home Computer In Dev. n/a Click here Bomb Jack Arcade Machine&hellip;
+                    Alternative Core Type Status R6 Version MEGA65 File Host Link Project Page Apple II Home Computer In Development n/a Click here Bomb Jack Arcade Machine&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -79,7 +86,7 @@
 <tbody><tr>
 <td><strong>Apple II</strong></td>
 <td><a href="computer-cores.html">Home Computer</a></td>
-<td>In Dev.</td>
+<td>In Development</td>
 <td></td>
 <td>n/a</td>
 <td><a href="https://github.com/lydon42/Apple-II_MEGA65">Click here</a></td>
@@ -134,7 +141,7 @@
 </tr>
 <tr>
 <td><strong>Game Boy and Game Boy Color</strong></td>
-<td>Video Game System</td>
+<td><a href="game-console-cores.html">Video Game System</a></td>
 <td>Fully functional</td>
 <td>No</td>
 <td><a href="https://files.mega65.org?id=03b68172-d6ff-49f0-971e-15bea2c6ad9a">Download here</a></td>
@@ -274,19 +281,14 @@ The bad news: Some Cores might not be fully adapted to the R6 model yet and can�
         <updated>2024-07-22T12:52:07+02:00</updated>
             <summary>
                 <![CDATA[
-                    How can I create an alternative MEGA65 core? The MiSTer Project is the world’s largest retro computing FPGA project. To see how many cores they&hellip;
+                    How can I create an alternative MEGA65 core? The MEGA65 team welcomes any additional Cores. Fortunately for just about every retro home computer or video&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h2 id="how-can-i-create-an-alternative-mega65-core">How can I create an alternative MEGA65 core?</h2>
-<p>The <a href="https://github.com/MiSTer-devel/Wiki_MiSTer/wiki">MiSTer Project</a> is the world’s largest retro computing FPGA project. To see how many cores
-they have, just go to <a href="https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/Cores">MiSTer’s list of cores</a>. It is stunning! :-)</p><p>So more than enough work for all you MEGA65 enthusiasts out there: Porting MiSTer cores is the logical first step and a great start when it comes
-to building a decent library of alternative cores for the MEGA65. The Commodore 64 core and the Game Boy core from our list above are two great
-examples of this.</p><p>For making your life easier, the <a href="https://github.com/sy2002/MiSTer2MEGA65">MiSTer2MEGA65 Framework</a> is here to simplify porting MiSTer cores to the MEGA65.
-The <a href="https://github.com/sy2002/MiSTer2MEGA65/wiki">MiSTer2MEGA65 Wiki</a> offers a tutorial and all the information you need to successfully contribute
-to MEGA65’s growing library of cores. Last but not least there is the friendly MEGA65 community on Discord. If you are new to porting cores or
-to FPGA development in general, don’t hesitate to join our <a href="https://discord.com/channels/719326990221574164/1057791653517209601">#learn-fpga-dev channel on Discord</a>.</p>
+<p>The MEGA65 team welcomes any additional Cores. Fortunately for just about every retro home computer or video game console most of the work has already been done by the MiSTer community.</p><p>The <a href="https://github.com/MiSTer-devel/Wiki_MiSTer/wiki">MiSTer Project</a> currently is the world’s largest retro computing FPGA project. A full list of Cores already developed can be found here: <a href="https://github.com/MiSTer-devel/Wiki_MiSTer/wiki/Cores">MiSTer’s list of cores</a>.</p><p>So, there is a lot of interesting projects not only for MEGA65 enthusiasts but also for students and professional developers. Porting a MiSTer core is a great start to learn FPGA computing. Many of the Cores for the MEGA65 started out as MiSTer projects, like the C64 and Game Boy Cores.</p><p>To make your life easier, the <a href="https://github.com/sy2002/MiSTer2MEGA65">MiSTer2MEGA65 Framework</a> simplifies porting MiSTer cores to the MEGA65 by doing a lot of the hard work of adapting to a new hardware platform.
+The <a href="https://github.com/sy2002/MiSTer2MEGA65/wiki">MiSTer2MEGA65 Wiki</a> offers a tutorial and all the information you need to successfully contribute to MEGA65’s growing library of cores. </p><p>Last but not least there is a friendly MEGA65 community on Discord. If you are new to porting Cores or to FPGA development in general, don’t hesitate to join our <a href="https://discord.com/channels/719326990221574164/1057791653517209601">#learn-fpga-dev channel on Discord</a>.</p>
             ]]>
         </content>
     </entry>
@@ -301,28 +303,31 @@ to FPGA development in general, don’t hesitate to join our <a href="https://di
         <updated>2024-07-22T12:48:41+02:00</updated>
             <summary>
                 <![CDATA[
-                    How do I install an alternative MEGA65 core? Watch this great video tutorial on YouTube from Oliver Graf. If you prefer reading over videos, here&hellip;
+                    How do I install an alternative MEGA65 core? If you hate reading, watch this great video tutorial on YouTube from Oliver Graf. More info can&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h2 id="how-do-i-install-an-alternative-mega65-core">How do I install an alternative MEGA65 core?</h2>
-<p>Watch this <a href="https://youtu.be/6ZcUFY77o3A">great video tutorial on YouTube</a> from Oliver Graf.
-If you prefer reading over videos, here is how you install an alternative MEGA65 core:</p><ol>
-<li>Copy the <code>.cor</code> file on an SD card and insert it into the MEGA65</li>
-<li>Make sure your MEGA65 is turned off</li>
-<li>Press and hold the <kbd>NO SCROLL</kbd> key in the top row at position 5</li>
-<li>Turn on your MEGA65</li>
-<li>Press <kbd>CTRL</kbd> + <kbd>1</kbd> (or another number) to select the slot where you’d like to install the alternate core.
-You do not need to worry: You can change the slot at a later stage and you cannot overwrite your factory MEGA65 core and brick your machine.</li>
-<li>Select the <code>.cor</code> file on your SD card</li>
-</ol>
-<p><a href="https://files.mega65.org/news/MEGA65-Starter-Guide.pdf">Download the MEGA65 starter guide</a> and read the section <code>Bitstream Utility</code> to learn more.</p><h2 id="how-do-i-run-an-alternative-mega65-core">How do I run an alternative MEGA65 core?</h2>
-<ol>
-<li>Turn off your MEGA65</li>
-<li>Press and hold the <kbd>NO SCROLL</kbd> key in the top row at position 5</li>
-<li>Choose the core that you would like to run</li>
-</ol>
+<p>If you hate reading, watch this <a href="https://youtu.be/6ZcUFY77o3A">great video tutorial on YouTube</a> from Oliver Graf.</p><ul>
+<li>Turn the MEGA65 off.</li>
+<li>Copy the <code>.cor</code> file for your Model of the MEGA65 on a Micro-SD card and insert it into the MEGA65 (either internal or external slot).</li>
+<li>Press and hold the <kbd>NO SCROLL</kbd> key in the top row at position 5.</li>
+<li>Turn on your MEGA65.</li>
+<li>You should now see a list of 8 slots, numbered 0 to 7. You can install a Core into any of these, but it is recommended to keep Slot 1 for the MEGA65 core. You can simply overwrite the contents of any slot with new versions or different Cores.</li>
+<li>Press the <kbd>CTRL</kbd> key and the number of the slot you want to install to.</li>
+<li>Select the <code>.cor</code> file for the Core on your Micro-SD-Card and confirm installation.</li>
+<li>Do not reset or turn off the MEGA65 for the next minute or two until you see a confirmation message on screen.</li>
+</ul>
+<p>More info can be found in the MEGA65 welcome guide posted here: 
+<a href="https://dansanderson.com/mega65/welcome/updating-core.html">https://dansanderson.com/mega65/welcome/updating-core.html</a>
+or in the official documentation.</p><h2 id="how-do-i-run-an-alternative-mega65-core">How do I run an alternative MEGA65 core?</h2>
+<ul>
+<li>Turn off your MEGA65.</li>
+<li>Press and hold the <kbd>NO SCROLL</kbd> key in the top row at position 5.</li>
+<li>Press the number key of the slot of the core you want to start.</li>
+<li>When you reset the MEGA65 with the Reset button, the Core you have chosen will stay active. If you turn the MEGA65 off and on again without pressing <kbd>NO SCROLL</kbd>, the Core Slot defined as the default core will be loaded and run.</li>
+</ul>
 
             ]]>
         </content>
@@ -347,7 +352,9 @@ You do not need to worry: You can change the slot at a later stage and you canno
 <h2 id="commodore-64-c64">Commodore 64 (C64)</h2>
 <img loading="lazy" src= https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Commodore-64-Computer-FL.jpg/2560px-Commodore-64-Computer-FL.jpg width="600">
 
-<p><a href="https://en.wikipedia.org/wiki/Commodore_64">https://en.wikipedia.org/wiki/Commodore_64</a></p><p>The Commodore 64 is a personal computer released in 1982. It is the precursor of the (unreleased) C65 which is the machine the MEGA65 is recreating. It is usually abbreviated as just <strong>C64</strong>.</p><p><em>Insert screenshot of Core with menu</em></p><p>The core for the C64 is nearly 100% compatible to a real C64. Hardware like cartridges and floppy drives can be plugged into the MEGA65 and will work.
+<p><a href="https://en.wikipedia.org/wiki/Commodore_64">https://en.wikipedia.org/wiki/Commodore_64</a></p><p>The Commodore 64 is a personal computer released in 1982. It is the precursor of the (unreleased) C65 which is the machine the MEGA65 is recreating. It is usually abbreviated as just <strong>C64</strong>.</p><img loading="lazy" src=c64coremenu.jpg>
+
+<p>The core for the C64 is nearly 100% compatible to a real C64. Hardware like cartridges and floppy drives can be plugged into the MEGA65 and will work.
 The core can load disk images (.d64 files) and cartridge images (.crt files) from any of the two SD Cards in the MEGA65. Tape images are not supported.
 The Core only supports a PAL C64 system. Programs that only work correctly on NTSC (USA/Japan) systems are not compatible. Please see all details in the documentation.</p><p>The Core is available in versions for R3 and R6 boards.</p><p>Download the Core on the MEGA65 filehost: 
 <a href="https://files.mega65.org/?id=896a012f-59e4-456c-b91f-7e989b958241">https://files.mega65.org/?id=896a012f-59e4-456c-b91f-7e989b958241</a></p><p>The Core discussion on Discord: 
@@ -391,7 +398,7 @@ The Core only supports a PAL C64 system. Programs that only work correctly on NT
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
 <p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. Please refer to the page <a href="creating-new-cores-for-mega65.html">Creating new Cores</a> for more details.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
 <p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="can-i-add-a-core-to-this-list">Can I add a core to this list?</h2>
-<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#98;&#x6f;&#114;&#105;&#x73;&#x40;&#100;&#114;&#x65;&#x69;&#x73;&#101;&#99;&#104;&#x7a;&#x69;&#103;&#x2e;&#x6e;&#101;&#x74;">&#98;&#x6f;&#114;&#105;&#x73;&#x40;&#100;&#114;&#x65;&#x69;&#x73;&#101;&#99;&#104;&#x7a;&#x69;&#103;&#x2e;&#x6e;&#101;&#x74;</a>. Updates on Work-in-Progress are also very welcome.</p>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#98;&#111;&#x72;&#x69;&#115;&#x40;&#x64;&#114;&#101;&#x69;&#115;&#x65;&#x63;&#x68;&#x7a;&#105;&#103;&#x2e;&#x6e;&#x65;&#x74;">&#98;&#111;&#x72;&#x69;&#115;&#x40;&#x64;&#114;&#101;&#x69;&#115;&#x65;&#x63;&#x68;&#x7a;&#105;&#103;&#x2e;&#x6e;&#x65;&#x74;</a>. Updates on Work-in-Progress are also very welcome.</p>
             ]]>
         </content>
     </entry>
