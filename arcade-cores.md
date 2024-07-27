@@ -38,7 +38,7 @@ https://github.com/sho3string/SEGASYS1MEGA65
 
 Download the Core from the MEGA65 filehost here:
 
-https://files.mega65.org?id=f3ddcbd5-a6c1-42cd-aa9c-db25dfd71c90
+https://files.mega65.org?id=7365cb17-4375-45d3-a833-a89a38266c5e
 
 _This core potentially can run other games created for the Sega System 1, but the current release only supports the game Wonder Boy._
 
