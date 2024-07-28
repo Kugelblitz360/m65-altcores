@@ -40,7 +40,7 @@ The Core is available in versions for R3 and R6 boards
 
 Download the Core on the MEGA65 filehost:
 
-https://files.mega65.org?id=bdaeb7e0-9fc8-4185-99de-104d01229f27
+https://files.mega65.org/?id=bdaeb7e0-9fc8-4185-99de-104d01229f27
 
 Discuss the Core in the Alternate Cores channel on Discord:
 

@@ -23,7 +23,7 @@ https://github.com/sho3string/BombjackMEGA65
 
 Download the Core from the MEGA65 filehost here:
 
-https://files.mega65.org?id=f3ddcbd5-a6c1-42cd-aa9c-db25dfd71c90
+https://files.mega65.org/?id=f3ddcbd5-a6c1-42cd-aa9c-db25dfd71c90
 
 
 ## Wonder Boy / Sega System 1
@@ -38,7 +38,7 @@ https://github.com/sho3string/SEGASYS1MEGA65
 
 Download the Core from the MEGA65 filehost here:
 
-https://files.mega65.org?id=7365cb17-4375-45d3-a833-a89a38266c5e
+https://files.mega65.org/?id=7365cb17-4375-45d3-a833-a89a38266c5e
 
 
 _This core potentially can run other games created for the Sega System 1, but the current release only supports the game Wonder Boy._
@@ -60,7 +60,7 @@ https://github.com/sho3string/GnGMEGA65
 
 Download the Core from the MEGA65 filehost here:
 
-https://files.mega65.org?id=e563df76-e12f-47de-9bb2-cca4ebe1e18d
+https://files.mega65.org/?id=e563df76-e12f-47de-9bb2-cca4ebe1e18d
 
 
 ## Elevator Action (R3 only)
@@ -78,7 +78,7 @@ https://github.com/sho3string/ElevatorActionMEGA65
 
 Download the Core from the MEGA65 filehost here:
 
-https://files.mega65.org?id=e2ee129d-149c-4b59-9ced-d21185878091
+https://files.mega65.org/?id=e2ee129d-149c-4b59-9ced-d21185878091
 
 ## Burnin Rubber (R3 only)
 [**This core currently is NOT AVAILABLE for the R6 MEGA65**](mega65-revisions-and-cores.html)
@@ -95,7 +95,7 @@ https://github.com/sho3string/BurningRubberMEGA65
 
 Download the Core from the MEGA65 filehost here:
 
-https://files.mega65.org?id=6a96f6de-2673-40c0-9304-5720fe8ce144
+https://files.mega65.org/?id=6a96f6de-2673-40c0-9304-5720fe8ce144
 
 _Please note that the Core does not support the US version of this arcade game, called Bump'n'Jump._
 
@@ -114,7 +114,7 @@ https://github.com/sho3string/XeviousMEGA65
 
 Download the Core from the MEGA65 filehost here:
 
-https://files.mega65.org?id=d32474e9-6f30-48f8-bba3-167cad4bbc4f
+https://files.mega65.org/?id=d32474e9-6f30-48f8-bba3-167cad4bbc4f
 
 _Please note that this Core supports several versions of the game, including the releases from Atari for the USA as well as Super Xevious._
 
@@ -133,7 +133,7 @@ https://github.com/sho3string/BosconianMEGA65
 
 Download the Core from the MEGA65 filehost here:
 
-https://files.mega65.org?id=96dd324b-d611-4252-bea4-0dbc4eb899ae
+https://files.mega65.org/?id=96dd324b-d611-4252-bea4-0dbc4eb899ae
 
 ## Galaga (R3 only)
 [**This core currently is NOT AVAILABLE for the R6 MEGA65**](mega65-revisions-and-cores.html)
@@ -150,7 +150,7 @@ https://github.com/sho3string/GalagaMEGA65
 
 Download the Core from the MEGA65 filehost here:
 
-https://files.mega65.org?id=8bc248e3-c29c-4ba8-b8c3-6018a995a9ea
+https://files.mega65.org/?id=8bc248e3-c29c-4ba8-b8c3-6018a995a9ea
 
 
 # Sources

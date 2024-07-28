@@ -24,5 +24,5 @@ https://github.com/sy2002/gbc4mega65/blob/master/README.md
 
 The Core can be downloaded here:
 
-https://files.mega65.org?id=03b68172-d6ff-49f0-971e-15bea2c6ad9a
+https://files.mega65.org/?id=03b68172-d6ff-49f0-971e-15bea2c6ad9a
 
