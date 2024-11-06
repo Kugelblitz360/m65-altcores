@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2024-11-06T21:35:26+01:00</updated>
+    <updated>2024-11-06T21:36:18+01:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -158,7 +158,7 @@
 <tr>
 <td><strong>TI-99/4A</strong></td>
 <td><a href="computer-cores.html">Home Compter</a></td>
-<td>Fully functional / R6 only</td>
+<td>Fully functional</td>
 <td>Yes</td>
 <td><a href="https://files.mega65.org/?id=a25ce133-ed07-4ef7-8495-179d69c43ed0">Download here</a></td>
 <td><a href="https://github.com/zeldin/Mega99">Click here</a></td>
@@ -415,7 +415,7 @@ The Core only supports a PAL C64 system. Programs that only work correctly on NT
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
 <p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. Please refer to the page <a href="creating-new-cores-for-mega65.html">Creating new Cores</a> for more details.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
 <p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="can-i-add-a-core-to-this-list">Can I add a core to this list?</h2>
-<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#98;&#x6f;&#x72;&#105;&#115;&#x40;&#100;&#x72;&#101;&#x69;&#x73;&#101;&#x63;&#104;&#x7a;&#x69;&#103;&#x2e;&#110;&#101;&#116;">&#98;&#x6f;&#x72;&#105;&#115;&#x40;&#100;&#x72;&#101;&#x69;&#x73;&#101;&#x63;&#104;&#x7a;&#x69;&#103;&#x2e;&#110;&#101;&#116;</a>. Updates on Work-in-Progress are also very welcome.</p><h2 id="where-are-the-cores">Where are the cores?</h2>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#x62;&#111;&#x72;&#x69;&#115;&#x40;&#x64;&#114;&#x65;&#105;&#115;&#101;&#x63;&#x68;&#x7a;&#x69;&#x67;&#x2e;&#110;&#101;&#x74;">&#x62;&#111;&#x72;&#x69;&#115;&#x40;&#x64;&#114;&#x65;&#105;&#115;&#101;&#x63;&#x68;&#x7a;&#x69;&#x67;&#x2e;&#110;&#101;&#x74;</a>. Updates on Work-in-Progress are also very welcome.</p><h2 id="where-are-the-cores">Where are the cores?</h2>
 <h1 id="home-computers"><a href="computer-cores.html">Home Computers</a></h1>
 <h1 id="arcade-games"><a href="arcade-cores.html">Arcade Games</a></h1>
 <h1 id="game-consoles"><a href="game-console-cores.html">Game Consoles</a></h1>
