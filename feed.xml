@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2024-12-20T22:43:16+01:00</updated>
+    <updated>2024-12-20T22:47:55+01:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -164,6 +164,14 @@
 <td><a href="https://github.com/sho3string/GnGMEGA65">Click here</a></td>
 </tr>
 <tr>
+<td><strong>Stargate</strong></td>
+<td><a href="arcade-cores.html">Arcade Machine</a></td>
+<td>Fully functional</td>
+<td><strong>Yes</strong></td>
+<td><a href="https://files.mega65.org?id=fb977a9b-3979-4420-99f2-c683f52070b7">Download here</a></td>
+<td><a href="https://github.com/sho3string/StargateMEGA65_R3_R6/tree/Stargate_R3_R6">Click here</a></td>
+</tr>
+<tr>
 <td><strong>TI-99/4A</strong></td>
 <td><a href="computer-cores.html">Home Computer</a></td>
 <td>Fully functional</td>
@@ -234,7 +242,7 @@ Bomb Jack is an Arcade game by Tecmo from 1984.
 <p><a href="mega65-revisions-and-cores.html"><strong>This core requires different downloads based on your MEGA65 revision.</strong></a></p><img loading="lazy" src="Galaga.png" style="float:right;width:200px" data-is-external-image="true">
 
 <p>Galaga is an Arcade game by Namco from 1981.</p><p><a href="https://en.wikipedia.org/wiki/Galaga">https://en.wikipedia.org/wiki/Galaga</a></p><p>Please follow the exact installation instructions from here:</p><p><a href="https://github.com/sho3string/GalagaMEGA65">https://github.com/sho3string/GalagaMEGA65</a></p><p>Download the R3 Core from the MEGA65 filehost here:</p><p><a href="https://files.mega65.org/?id=8bc248e3-c29c-4ba8-b8c3-6018a995a9ea">https://files.mega65.org/?id=8bc248e3-c29c-4ba8-b8c3-6018a995a9ea</a></p><p>Download the R6 Core from the MEGA65 filehost here:</p><p><a href="https://files.mega65.org?id=1672149c-66d3-4df7-9128-e9c83095c49a">https://files.mega65.org?id=1672149c-66d3-4df7-9128-e9c83095c49a</a></p><h2 id="gaplus">Gaplus</h2>
-<p><a href="mega65-revisions-and-cores.html"><strong>This core requires different downloads based on your MEGA65 revision.</strong></a></p><img loading="lazy" src="Gaplus.png" style="float:right;width:200px" data-is-external-image="true">
+<img loading="lazy" src="Gaplus.png" style="float:right;width:200px" data-is-external-image="true">
 
 <p>Gaplus is an Arcade game by Namco from 1984.</p><p><a href="https://en.wikipedia.org/wiki/Gaplus">https://en.wikipedia.org/wiki/Gaplus</a></p><p>Please follow the exact installation instructions from here:</p><p><a href="https://github.com/sho3string/GaplusMEGA65_R3_R6">https://github.com/sho3string/GaplusMEGA65_R3_R6</a></p><p>Download the Core from the MEGA65 filehost here:</p><p><a href="https://files.mega65.org?id=a87ab90e-06bc-40bb-8257-6988345d7784">https://files.mega65.org?id=a87ab90e-06bc-40bb-8257-6988345d7784</a></p><h2 id="ghosts-n-goblins">Ghosts ‘n Goblins</h2>
 <p><a href="mega65-revisions-and-cores.html"><strong>This core requires different downloads based on your MEGA65 revision.</strong></a></p><img loading="lazy" src="GhostNGoblins.png" style="float:right;width:200px" data-is-external-image="true">
@@ -432,7 +440,7 @@ The Core only supports a PAL C64 system. Programs that only work correctly on NT
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="when-is-the-next-core-coming-out">When is the next Core coming out?</h2>
 <p>All Core development is done by enthusiasts with day-time jobs who do awesome work for free. Because of this, your expectation should be that a Core may NEVER be released or updated. There are NO promises for an upgraded C64 Core, a R6-compatible Gamebpy-Core, an Amiga-Core or more Arcade-Cores. People are working on those in their spare time, everything is a labour of love and the purchase of the MEGA65 does not entitle you to any Core (but the original MEGA65 Core).</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
 <p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. Please refer to the page <a href="creating-new-cores-for-mega65.html">Creating new Cores</a> for more details.</p><h2 id="can-i-add-a-core-to-this-list">Can I add a core to this list?</h2>
-<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#98;&#111;&#x72;&#105;&#x73;&#64;&#100;&#x72;&#x65;&#105;&#115;&#x65;&#99;&#104;&#122;&#105;&#103;&#x2e;&#110;&#x65;&#x74;">&#98;&#111;&#x72;&#105;&#x73;&#64;&#100;&#x72;&#x65;&#105;&#115;&#x65;&#99;&#104;&#122;&#105;&#103;&#x2e;&#110;&#x65;&#x74;</a>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#98;&#111;&#x72;&#x69;&#x73;&#64;&#100;&#x72;&#101;&#105;&#115;&#x65;&#99;&#x68;&#x7a;&#x69;&#103;&#x2e;&#x6e;&#x65;&#x74;">&#98;&#111;&#x72;&#x69;&#x73;&#64;&#100;&#x72;&#101;&#105;&#115;&#x65;&#99;&#x68;&#x7a;&#x69;&#103;&#x2e;&#x6e;&#x65;&#x74;</a>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
 <p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="where-are-the-cores">Where are the cores?</h2>
 <h1 id="home-computers"><a href="computer-cores.html">Home Computers</a></h1>
 <h1 id="arcade-games"><a href="arcade-cores.html">Arcade Games</a></h1>
