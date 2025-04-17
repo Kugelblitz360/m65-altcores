@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2025-04-17T12:22:26+02:00</updated>
+    <updated>2025-04-17T14:33:28+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -175,7 +175,7 @@
 <td><strong>Ghosts ‘n Goblins</strong></td>
 <td><a href="arcade-cores.html">Arcade Machine</a></td>
 <td>Fully functional</td>
-<td>Yes</td>
+<td><strong>Yes</strong></td>
 <td><a href="https://files.mega65.org/?id=e563df76-e12f-47de-9bb2-cca4ebe1e18d">R3 here</a>; <a href="https://files.mega65.org?id=f66965dc-4006-4ebe-8fde-eed9bc60d3aa">R6 here</a></td>
 <td><a href="https://github.com/sho3string/GnGMEGA65">Github</a></td>
 </tr>
@@ -496,7 +496,7 @@ The Core only supports a PAL C64 system. Programs that only work correctly on NT
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="when-is-the-next-core-coming-out">When is the next Core coming out?</h2>
 <p>All Core development is done by enthusiasts with day-time jobs who do awesome work for free. Because of this, your expectation should be that a Core may NEVER be released or updated. There are NO promises for an upgraded C64 Core, a R6-compatible Gamebpy-Core, an Amiga-Core or more Arcade-Cores. People are working on those in their spare time, everything is a labour of love and the purchase of the MEGA65 does not entitle you to any Core (but the original MEGA65 Core).</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
 <p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. Please refer to the page <a href="creating-new-cores-for-mega65.html">Creating new Cores</a> for more details.</p><h2 id="can-i-add-a-core-to-this-list">Can I add a core to this list?</h2>
-<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#x62;&#x6f;&#114;&#105;&#x73;&#64;&#x64;&#x72;&#101;&#105;&#115;&#x65;&#x63;&#104;&#x7a;&#105;&#103;&#46;&#x6e;&#x65;&#x74;">&#x62;&#x6f;&#114;&#105;&#x73;&#64;&#x64;&#x72;&#101;&#105;&#115;&#x65;&#x63;&#104;&#x7a;&#105;&#103;&#46;&#x6e;&#x65;&#x74;</a>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#98;&#x6f;&#x72;&#x69;&#115;&#x40;&#100;&#x72;&#x65;&#x69;&#x73;&#101;&#x63;&#104;&#x7a;&#x69;&#103;&#46;&#110;&#101;&#116;">&#98;&#x6f;&#x72;&#x69;&#115;&#x40;&#100;&#x72;&#x65;&#x69;&#x73;&#101;&#x63;&#104;&#x7a;&#x69;&#103;&#46;&#110;&#101;&#116;</a>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
 <p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="where-are-the-cores">Where are the cores?</h2>
 <h1 id="home-computers"><a href="computer-cores.html">Home Computers</a></h1>
 <h1 id="arcade-games"><a href="arcade-cores.html">Arcade Games</a></h1>
