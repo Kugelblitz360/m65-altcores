@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2025-10-20T23:07:13+02:00</updated>
+    <updated>2026-03-23T09:53:44+01:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -18,7 +18,7 @@
         <id>https://kugelblitz360.github.io/m65-altcores/about-this-website.html</id>
 
         <updated>2024-07-25T10:48:07+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     This website is based on the original documentation for Alternative C64 Cores by sy2002. It was “beautified” and enhanced by Boris Schneider-Johne. All texts are&hellip;
                 ]]>
@@ -38,7 +38,7 @@
         <id>https://kugelblitz360.github.io/m65-altcores/game-console-cores.html</id>
 
         <updated>2024-07-23T11:27:18+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Cores Available for all MEGA65 Currently no Core for Game Consoles is available for the R6 models. The Game Boy is a portable game console&hellip;
                 ]]>
@@ -65,7 +65,7 @@
         <id>https://kugelblitz360.github.io/m65-altcores/quick-core-overview.html</id>
 
         <updated>2024-07-22T15:18:18+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Alternative Core Type Status R6 Version MEGA65 File Host Link Project Page Apple II Home Computer In Development n/a Github Bank Banic Arcade Machine Fully&hellip;
                 ]]>
@@ -122,6 +122,14 @@
 <td><strong>Yes</strong></td>
 <td><a href="https://files.mega65.org?id=6a96f6de-2673-40c0-9304-5720fe8ce144">Download Core</a></td>
 <td><a href="https://github.com/sho3string/BurningRubberMEGA65">Github</a></td>
+</tr>
+<tr>
+<td><strong>C16/Plus4/264</strong></td>
+<td><a href="computer-cores.html">Home Computer</a></td>
+<td>Mostly functional</td>
+<td><strong>Yes</strong></td>
+<td><a href="https://files.mega65.org?id=db358ffc-921e-4129-9fa3-c17728f7b37a">Download Core</a></td>
+<td><a href="https://github.com/piso77/C16-MEGA65">Github</a></td>
 </tr>
 <tr>
 <td><strong>Commodore 64</strong></td>
@@ -321,7 +329,7 @@
         <id>https://kugelblitz360.github.io/m65-altcores/arcade-cores.html</id>
 
         <updated>2024-07-22T13:31:07+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     The MEGA65 can also be turned into an arcade game machine. As many early arcade games rely on fast reaction times, an FPGA-based recreation is&hellip;
                 ]]>
@@ -429,7 +437,7 @@ Elevator Action is an Arcade game by Taito from 1983.
         <id>https://kugelblitz360.github.io/m65-altcores/mega65-revisions-and-cores.html</id>
 
         <updated>2024-07-22T12:57:41+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     The MEGA65 was produced in several revisions that have slight internal hardware changes. Unfortunately this results in Cores needing specific versions based on your MEGA65&hellip;
                 ]]>
@@ -457,7 +465,7 @@ The bad news: Some Cores might not be fully adapted to the R6 model yet and can�
         <id>https://kugelblitz360.github.io/m65-altcores/creating-new-cores-for-mega65.html</id>
 
         <updated>2024-07-22T12:52:07+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     How can I create an alternative MEGA65 core? The MEGA65 team welcomes any additional Cores. Fortunately for just about every retro home computer or video&hellip;
                 ]]>
@@ -479,7 +487,7 @@ The <a href="https://github.com/sy2002/MiSTer2MEGA65/wiki">MiSTer2MEGA65 Wiki</a
         <id>https://kugelblitz360.github.io/m65-altcores/how-to-use-alternative-cores.html</id>
 
         <updated>2024-07-22T12:48:41+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     How do I install an alternative MEGA65 core? If you hate reading, watch this great video tutorial on YouTube from Oliver Graf. More info can&hellip;
                 ]]>
@@ -519,7 +527,7 @@ or in the official documentation.</p><h2 id="how-do-i-run-an-alternative-mega65-
         <id>https://kugelblitz360.github.io/m65-altcores/computer-cores.html</id>
 
         <updated>2024-07-22T12:22:41+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     Cores Available for all MEGA65 Commodore 64 (C64) https://en.wikipedia.org/wiki/Commodore_64 The Commodore 64 is a personal computer released in 1982. It is the precursor of the&hellip;
                 ]]>
@@ -537,7 +545,8 @@ The core can load disk images (.d64 files) and cartridge images (.crt files) fro
 The Core only supports a PAL C64 system. Programs that only work correctly on NTSC (USA/Japan) systems are not compatible. Please see all details in the documentation.</p><p>The Core is available in versions for R3 and R6 boards.</p><p><strong>Full instructions for this core can be found at <a href="https://c64.mega65.org">https://c64.mega65.org</a></strong></p><p>Download the Core on the MEGA65 filehost: 
 <a href="https://files.mega65.org/?id=896a012f-59e4-456c-b91f-7e989b958241">https://files.mega65.org/?id=896a012f-59e4-456c-b91f-7e989b958241</a></p><p>The Core discussion on Discord: 
 <a href="https://discord.com/channels/719326990221574164/794775503818588200">https://discord.com/channels/719326990221574164/794775503818588200</a></p><p>The Core issue tracker on Github: 
-<a href="https://github.com/MJoergen/C64MEGA65/issues">https://github.com/MJoergen/C64MEGA65/issues</a></p><h2 id="commodore-pet-machines">Commodore PET machines</h2>
+<a href="https://github.com/MJoergen/C64MEGA65/issues">https://github.com/MJoergen/C64MEGA65/issues</a></p><h2 id="commodore-264--c16--plus4">Commodore 264 / C16 / Plus4</h2>
+<p>Details to follow! Exciting new BETA Core.</p><p>Read more here: <a href="https://github.com/piso77/C16-MEGA65/blob/master/README.md">https://github.com/piso77/C16-MEGA65/blob/master/README.md</a></p><p>Download here: <a href="https://files.mega65.org/html/main.php?id=db358ffc-921e-4129-9fa3-c17728f7b37a">https://files.mega65.org/html/main.php?id=db358ffc-921e-4129-9fa3-c17728f7b37a</a></p><h2 id="commodore-pet-machines">Commodore PET machines</h2>
 <img loading="lazy" src=https://upload.wikimedia.org/wikipedia/commons/c/c5/Commodore_2001_Series-IMG_0448b.jpg width="600">
 
 <p>MegaPET is an implementation of MANY variations of the Commodore PET line of computers, the forerunners to the VIC-20 and the Commodore 64.</p><p>You can find it on the official filehost here: <a href="https://files.mega65.org?id=468325ae-7e27-475d-80e7-a0f0af409446">https://files.mega65.org?id=468325ae-7e27-475d-80e7-a0f0af409446</a></p><p>You need to follow a lot of specific instructions for setup, available on the Github here:
@@ -577,7 +586,7 @@ The Core only supports a PAL C64 system. Programs that only work correctly on NT
         <id>https://kugelblitz360.github.io/m65-altcores/alternate-cores.html</id>
 
         <updated>2024-07-22T10:59:55+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                     What are “alternative” MEGA65 cores? From day one, the MEGA65 was designed to be the spiritual successor of the legendary Commodore 65. To realize that&hellip;
                 ]]>
@@ -592,7 +601,7 @@ The Core only supports a PAL C64 system. Programs that only work correctly on NT
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="when-is-the-next-core-coming-out">When is the next Core coming out?</h2>
 <p>All Core development is done by enthusiasts with day-time jobs who do awesome work for free. Because of this, your expectation should be that a Core may NEVER be released or updated. There are NO promises for an upgraded C64 Core, a R6-compatible Gamebpy-Core, an Amiga-Core or more Arcade-Cores. People are working on those in their spare time, everything is a labour of love and the purchase of the MEGA65 does not entitle you to any Core (but the original MEGA65 Core).</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
 <p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. Please refer to the page <a href="creating-new-cores-for-mega65.html">Creating new Cores</a> for more details.</p><h2 id="can-i-add-a-core-to-this-list">Can I add a core to this list?</h2>
-<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#x62;&#111;&#114;&#x69;&#x73;&#x40;&#100;&#x72;&#x65;&#x69;&#x73;&#x65;&#99;&#104;&#122;&#105;&#x67;&#x2e;&#110;&#101;&#x74;">&#x62;&#111;&#114;&#x69;&#x73;&#x40;&#100;&#x72;&#x65;&#x69;&#x73;&#x65;&#99;&#104;&#122;&#105;&#x67;&#x2e;&#110;&#101;&#x74;</a>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <a href="mailto:&#x62;&#x6f;&#114;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#x68;&#x7a;&#105;&#x67;&#46;&#x6e;&#101;&#116;">&#x62;&#x6f;&#114;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#x68;&#x7a;&#105;&#x67;&#46;&#x6e;&#101;&#116;</a>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
 <p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="where-are-the-cores">Where are the cores?</h2>
 <h1 id="home-computers"><a href="computer-cores.html">Home Computers</a></h1>
 <h1 id="arcade-games"><a href="arcade-cores.html">Arcade Games</a></h1>
