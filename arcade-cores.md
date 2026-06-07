@@ -3,7 +3,7 @@ The MEGA65 can also be turned into an arcade game machine. As many early arcade 
 
 ## Important Details about Arcade Games
 
-To recreate the game two parts are needed: An FPGA Core and image files for the ROMs. The Core is like a Core for a home computer and only has the "hardware" part of the machine. It still requires the actual software, which is a seperate file, even if the Core can only play one specific game. Arcade Game ROMs are available in many flavours on internet, but the Core usually requires a very specific format. You need to read the instructions per Core very carefully and follow them to the letter to create the correct files. This in some cases requires _Python_ on your computer. Due to copyright and licensing reasons, there is no official archive where Cores and ROMs sre bundled ready to use.
+To recreate the game two parts are needed: An FPGA Core and image files for the ROMs. The Core is like a Core for a home computer and only has the "hardware" part of the machine. It still requires the actual software, which is a separate file, even if the Core can only play one specific game. Arcade Game ROMs are available in many flavours on internet, but the Core usually requires a very specific format. You need to read the instructions per Core very carefully and follow them to the letter to create the correct files. This in some cases requires _Python_ on your computer. Due to copyright and licensing reasons, there is no official archive where Cores and ROMs are bundled ready to use.
 
 Some Arcade Machine Cores support "DIP Switches". This refers to the switches on the arcade board itself and these are shown on screen. **Do not open the MEGA65 to change the DIP switches inside.**
 
