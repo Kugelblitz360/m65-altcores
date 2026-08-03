@@ -1,6 +1,6 @@
 ## What are "alternative" MEGA65 cores?
 
-From day one, the [MEGA65](https://mega65.org/) was designed to be the spiritual successor of the legendary Commodore 65. To realize that goal and stay future proof, the MEGA65 is based on something called a FPGA - "Field-programmable Gate Array". Think of it as "programmable hardware". Usually the CPU inside a computer is pure hardware: It is manufactured and can't be changed by a user. An FPGA can be (within technical limits) any CPU you imagine and so can, like a chamelon, literally become a C64, Arcade Machine or Gameboy.
+From day one, the [MEGA65](https://mega65.org/) was designed to be the spiritual successor of the legendary Commodore 65. To realize that goal and stay future proof, the MEGA65 is based on something called a FPGA - "Field-programmable Gate Array". Think of it as "programmable hardware". Usually the CPU inside a computer is pure hardware: It is manufactured and can't be changed by a user. An FPGA can be (within technical limits) any CPU you imagine and so can, like a chameleon, literally become a C64, Amiga 500, PET 2001, Plus/4 and even an Arcade Machine or a Gameboy.
 
 This is not what people usually refer to as **emulation**. An Emulator is a program that runs on a CPU and translates each command into instructions the CPU can understand. It's like have a translator at your side when you do not speak the language. An FPGA runs the code as if it IS that CPU. The analogy is that you learn the language yourself and can speak it like your mothers tongue.
 
@@ -15,9 +15,20 @@ So, an "Alternative" Core is basically a new language for the FPGA inside the ME
 Oliver Graf aka _lydon_ made a [great YouTube explanation video](https://youtu.be/9Ib7z64z9N4) about recreating retro systems using FPGAs,
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.
 
+## When is the next Core coming out?
+
+All Core development is done by enthusiasts with day-time jobs who do awesome work for free. Because of this, your expectation should be that a Core may NEVER be released or updated. There are NO promises for specific cores. People are working on those in their spare time, everything is a labour of love and the purchase of the MEGA65 does not entitle you to any Core (but the original MEGA65 Core).
+
 ## Can I run other FPGA-based Cores on MEGA65?
 
-Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. Please refer to the page [Creating new Cores](creating-new-cores-for-mega65.html) for more details.
+Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. There is updated documentation on a programming framework called MISTer2MEGA65 which can help you with converting existing cores. Please start here:
+
+https://github.com/sy2002/MiSTer2MEGA65/wiki
+
+
+## Can you add my new core to this list?
+
+I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <kbd>boris@dreisechzig.net</kbd>. Updates on Work-in-Progress are also very welcome.
 
 ## I have additional questions!
 
@@ -29,6 +40,11 @@ Additionally you can try the MEGA65 discussion board here (mainly in German lang
 
 https://www.forum64.de/index.php?board/457-mega65/
 
-## Can I add a core to this list?
 
-I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to boris@dreisechzig.net. Updates on Work-in-Progress are also very welcome.
+
+## Where are the cores?
+
+# [Home Computers](computer-cores.html)
+# [Arcade Games](arcade-cores.html)
+# [Game Consoles](game-console-cores.html)
+

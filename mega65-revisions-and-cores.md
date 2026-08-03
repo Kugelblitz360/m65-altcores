@@ -3,7 +3,7 @@ The MEGA65 was produced in several revisions that have slight internal hardware 
 All recent MEGA65 computers are **R6** models, meaning it is the sixth revision of the hardware. If your MEGA65 was shipped to you in 2024 or later and if it has a serial number higher than 1000, you are in the **R6** group.
 The bad news: Some Cores might not be fully adapted to the R6 model yet and can't be installed.
 ## If you already had a MEGA65 before 2024
-Most likely you do have a **R3** model (there are others but if you have on of these you definitely know what kind of machine you have). Currently every released Core is available for R3 models and should also be in the future. So, if a core is available in two versions, use the R3 version. Cores for other models can't be installed.
+Most likely you do have a **R3** model (there are others but if you have one of these you definitely know what kind of machine you have). Currently every released Core is available for R3 models and should also be in the future. So, if a core is available in two versions, use the R3 version. Cores for other models can't be installed.
 ## How to be really sure about your MEGA65
 When you turn on the MEGA65 in the native MEGA65 core, press the <kbd>RESTORE</kbd> key for two seconds and enter the "freezer". Now press the <kbd>HELP</kbd> key to enter the "Megainfo". Your board revision will be shown on the screen as "MEGA65 MODEL".
 <img src="megainfo.jpg">
