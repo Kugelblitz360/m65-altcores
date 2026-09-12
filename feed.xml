@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2026-09-07T23:00:15+02:00</updated>
+    <updated>2026-09-12T09:39:19+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -68,7 +68,7 @@
         <updated>2024-07-22T15:18:18+02:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Alternative Core Type Status R6 Version MEGA65 Filehost Link Project Page Amiga 500 Home Computer Fully Functional Yes Download Core Documentation Apple II Home Computer&hellip;
+                    Alternative Core Type Status R6 Version MEGA65 Filehost Link Project Page Amiga 500 Home Computer Fully Functional Yes Download Core Documentation Amstrad CPC Home Computer&hellip;
                 ]]>
             </summary>
         <content type="html">
@@ -91,6 +91,14 @@
 <td>Yes</td>
 <td><a href="https://files.mega65.org?id=bdbf637c-83b5-45c4-802f-0fd459f6b49e">Download Core</a></td>
 <td><a href="https://a500.mega65.org">Documentation</a></td>
+</tr>
+<tr>
+<td><strong>Amstrad CPC</strong></td>
+<td><a href="computer-cores.html">Home Computer</a></td>
+<td>Beta</td>
+<td>Yes</td>
+<td><a href="https://discord.com/channels/719326990221574164/1547606919928353018/1547606919928353018">Download Core</a></td>
+<td><a href="https://discord.com/channels/719326990221574164/1547606919928353018">Discord</a></td>
 </tr>
 <tr>
 <td><strong>Apple II</strong></td>
@@ -660,7 +668,8 @@ ROMs straight from the SD card and run them at the original MSX1 hardware timing
 
 <p><a href="https://en.wikipedia.org/wiki/Atari_8-bit_computers">https://en.wikipedia.org/wiki/Atari_8-bit_computers</a></p><p>The Atari 8-bit computers, formally launched as the Atari Home Computer System, are a series of home computers introduced by Atari, Inc., in 1979 with the Atari 400 and Atari 800. The architecture is designed around the 8-bit MOS Technology 6502 CPU and three custom coprocessors which provide support for sprites, smooth multidirectional scrolling, four channels of audio, and other features. The graphics and sound are more advanced than most of its contemporaries, and video games are a key part of the software library. The 1980 first-person space combat simulator Star Raiders is considered the platform’s killer app.</p><img loading="lazy" src=AtariPolePosition.jpg>
 
-<p>A Version of this Core has been released for public testing and feedback via Discord only (it is not on the Filehost). To download the core, read the instructions and follow the discussion on Discord here:</p><p><a href="https://discord.com/channels/719326990221574164/1539174975595094088/1546478161661792317">https://discord.com/channels/719326990221574164/1539174975595094088/1546478161661792317</a></p><h2 id="vic-20--vc-20">VIC-20 / VC-20</h2>
+<p>A Version of this Core has been released for public testing and feedback via Discord only (it is not on the Filehost). To download the core, read the instructions and follow the discussion on Discord here:</p><p><a href="https://discord.com/channels/719326990221574164/1539174975595094088/1546478161661792317">https://discord.com/channels/719326990221574164/1539174975595094088/1546478161661792317</a></p><h2 id="amstrad--schneider-cpc">Amstrad / Schneider CPC</h2>
+<p>A Core for the Amstrad CPC machines (know as Schneider in Germany) is in the works. A version for R6 boards has been released for testing. Files for the Core and it’s discussion can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1547606919928353018">https://discord.com/channels/719326990221574164/1547606919928353018</a></p><h2 id="vic-20--vc-20">VIC-20 / VC-20</h2>
 <img loading="lazy" src=Commodore-VIC-20-FR.jpg width="600">
 
 <p><a href="https://en.wikipedia.org/wiki/VIC-20">https://en.wikipedia.org/wiki/VIC-20</a></p><p>The VIC-20 (called VC20 in Europe) is a personal computer released in 1980/81.</p><p>An Alpha Version of this Core has been released for public testing and feedback via Discord only (it is not on the Filehost). To download the core, read the instructions and follow the discussion on Discord here:</p><p><a href="https://discord.com/channels/719326990221574164/1282769253921198120">https://discord.com/channels/719326990221574164/1282769253921198120</a></p><p>Further instructions and the source code can be found here:</p><p><a href="https://github.com/MJoergen/VIC20MEGA65">https://github.com/MJoergen/VIC20MEGA65</a></p><h2 id="commodore-128">Commodore 128</h2>
@@ -699,7 +708,7 @@ ROMs straight from the SD card and run them at the original MSX1 hardware timing
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="when-is-the-next-core-coming-out">When is the next Core coming out?</h2>
 <p>All Core development is done by enthusiasts with day-time jobs who do awesome work for free. Because of this, your expectation should be that a Core may NEVER be released or updated. There are NO promises for specific cores. People are working on those in their spare time, everything is a labour of love and the purchase of the MEGA65 does not entitle you to any Core (but the original MEGA65 Core).</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
 <p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. There is updated documentation on a programming framework called MISTer2MEGA65 which can help you with converting existing cores. Please start here:</p><p><a href="https://github.com/sy2002/MiSTer2MEGA65/wiki">https://github.com/sy2002/MiSTer2MEGA65/wiki</a></p><h2 id="can-you-add-my-new-core-to-this-list">Can you add my new core to this list?</h2>
-<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <kbd><a href="mailto:&#98;&#x6f;&#114;&#x69;&#115;&#x40;&#x64;&#114;&#x65;&#105;&#115;&#x65;&#99;&#104;&#x7a;&#x69;&#103;&#x2e;&#110;&#x65;&#116;">&#98;&#x6f;&#114;&#x69;&#115;&#x40;&#x64;&#114;&#x65;&#105;&#115;&#x65;&#99;&#104;&#x7a;&#x69;&#103;&#x2e;&#110;&#x65;&#116;</a></kbd>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <kbd><a href="mailto:&#x62;&#111;&#x72;&#x69;&#115;&#x40;&#100;&#x72;&#101;&#x69;&#x73;&#x65;&#x63;&#104;&#x7a;&#x69;&#x67;&#46;&#110;&#101;&#x74;">&#x62;&#111;&#x72;&#x69;&#115;&#x40;&#100;&#x72;&#101;&#x69;&#x73;&#x65;&#x63;&#104;&#x7a;&#x69;&#x67;&#46;&#110;&#101;&#x74;</a></kbd>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
 <p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="where-are-the-cores">Where are the cores?</h2>
 <h1 id="home-computers"><a href="computer-cores.html">Home Computers</a></h1>
 <h1 id="arcade-games"><a href="arcade-cores.html">Arcade Games</a></h1>
