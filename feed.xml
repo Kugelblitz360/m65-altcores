@@ -3,12 +3,79 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2026-09-20T22:14:08+02:00</updated>
+    <updated>2026-09-27T16:39:27+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
     <id>https://kugelblitz360.github.io/m65-altcores</id>
 
+    <entry>
+        <title>How to play games</title>
+        <author>
+            <name>Boris Schneider-Johne</name>
+        </author>
+        <link href="https://kugelblitz360.github.io/m65-altcores/how-to-play-games.html"/>
+        <id>https://kugelblitz360.github.io/m65-altcores/how-to-play-games.html</id>
+
+        <updated>2026-09-27T15:26:14+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    This is a short overview of common commands for people that only know the C64 (and other Commodore computers) and want to try out other&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>This is a short overview of common commands for people that only know the C64 (and other Commodore computers) and want to try out other computer Cores to play some games. This is no full documentation, just the bare essentials to get started.</p><h2 id="atari-400800xl">Atari 400/800/XL</h2>
+<h3 id="good-to-know">Good to know</h3>
+<p>When you are ONLY using an analog monitor and not HDMI output, please press <kbd>SPACE</kbd> once to start the display. The initial screen is only visible on HDMI.</p><h3 id="file-formats">File formats</h3>
+<p>You need to get games either as <code>.atr</code> or as<code>.xex</code> files. Other formats (especially cartridges) are not supported currently.</p><h3 id="loading-disks-atr">Loading disks (.atr)</h3>
+<p>To load a disk you need to mount it in the menu you reach by pressing the <kbd>HELP</kbd> key. Then you reboot the Atari by pressing <kbd>F11</kbd>.</p><p>Some programs require that the BASIC ROM is disabled. To achieve that, hold <kbd>F1</kbd> while pressing <kbd>F11</kbd>.</p><p>Many older games in <code>.atr</code> format require the Atari 400/800 mode you can find in <code>System Settings</code>.</p><h3 id="loading-programs-xex">Loading programs (.xex)</h3>
+<p>Many Atari Games have been repacked into a format that resembles a <strong>.prg</strong> on the C64, but can continue loading data while a picture is displayed or an intro is running. You mount and start a <code>.xex</code> directly in the <kbd>HELP</kbd> menu. Games in this format require the machine to be set in <code>xL/xE</code> mode in the <code>System Settings</code></p><h3 id="joystick-control">Joystick control</h3>
+<p>Standard Joysticks with one fire button are supported. They should be connected in the front port (near the reset button). The Core does not support port switching yet.</p><h3 id="special-keys">Special keys</h3>
+<p>When software asks you to press special keys, here is a short rundown of the most important keys:</p><table>
+<thead>
+<tr>
+<th align="center">Atari function</th>
+<th align="center">MEGA65 key</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">OPTION</td>
+<td align="center">F1</td>
+</tr>
+<tr>
+<td align="center">START</td>
+<td align="center">F5</td>
+</tr>
+<tr>
+<td align="center">Cold boot/reset</td>
+<td align="center">F11</td>
+</tr>
+<tr>
+<td align="center">Cold boot with OPTION held</td>
+<td align="center">F1 + F11</td>
+</tr>
+<tr>
+<td align="center">WARM reset</td>
+<td align="center">F7</td>
+</tr>
+<tr>
+<td align="center">HELP</td>
+<td align="center">F9</td>
+</tr>
+</tbody></table>
+<h2 id="amiga-500">Amiga 500</h2>
+<h3 id="good-to-know-1">Good to know</h3>
+<p>The current versions of the Amiga 500 Core does only support disks and not harddisks. So “WHDLoad” games will not work at all. Also some games require all RAM available to themselves. For this you need to disable all drives but <code>df0:</code> in the settings. And finally, some game do not like the extra memory available. For these you need to disable <code>Slow RAM</code> in the settings.</p><h2 id="amstrad--schneider-cpc">Amstrad / Schneider CPC</h2>
+<h3 id="good-to-know-2">Good to know</h3>
+<p>When you are ONLY using an analog monitor and not HDMI output, please press  <kbd>HELP</kbd> once to start the display. The initial screen is only visible on HDMI.</p><h3 id="loading-disks">Loading disks</h3>
+<p>To load a game you need a <code>.dsk</code> image of the game (or use the tools in the <kbd>HELP</kbd> menu to read a real disk). There is not automatic boot. You need to find out how to start the program by typing <code>CAT</code> and pressing  <kbd>RETURN</kbd>. Most often the game is started by the very first file you see like <code>GAME.BAS</code>. You then need to type <code>RUN "GAME</code> and press <kbd>RETURN</kbd>. The Amstrads do not have wildcards like the C64 for filenames, but you can at least skip the extension and the second quote.</p><h2 id="apple-ii">Apple II</h2>
+<h3 id="good-to-know-3">Good to know</h3>
+<p>If you have an Amiga-compatible mouse in one of the ports of the MEGA65, the Apple II switches into a diagnostic mode from which you can not start any games. Remove the mouse to be able to run games.</p><p>Many games feature weird looking green and magenta ghosting especially on text or white lines. That actually is the way the original Apple II video logic worked to squeeze out color from an NTSC signal.</p><h3 id="loading-disks-1">Loading disks</h3>
+<p>In the current version, mounting a <code>.nib</code> disk while the Apple II main screen is displayed is enough to then start the game.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>About this website</title>
         <author>
@@ -95,15 +162,15 @@
 <tr>
 <td><strong>Amstrad CPC</strong></td>
 <td><a href="computer-cores.html">Home Computer</a></td>
-<td>Beta</td>
+<td>Fully Functional</td>
 <td>Yes</td>
-<td><a href="https://discord.com/channels/719326990221574164/1547606919928353018/1547606919928353018">Download Core</a></td>
+<td><a href="https://files.mega65.org?id=87b00453-6bd1-41f9-aec6-48299c73ee1f">Download Core</a></td>
 <td><a href="https://discord.com/channels/719326990221574164/1547606919928353018">Discord</a></td>
 </tr>
 <tr>
 <td><strong>Apple II</strong></td>
 <td><a href="computer-cores.html">Home Computer</a></td>
-<td>Mostly Functional</td>
+<td>Fully Functional</td>
 <td>Yes</td>
 <td><a href="https://files.mega65.org?id=09c33961-901d-4cd0-8bea-616c37db5c50">Download Core</a></td>
 <td><a href="https://discord.com/channels/719326990221574164/1522848976607641700">Discord</a></td>
@@ -113,7 +180,7 @@
 <td><a href="computer-cores.html">Home Computer</a></td>
 <td>Beta</td>
 <td>Yes</td>
-<td><a href="https://discord.com/channels/719326990221574164/1539174975595094088/1546478161661792317">Download Core</a></td>
+<td><a href="https://github.com/sho3string/Mega800/releases/download/A8_Alpha1_Release/MEGA800_Alpha_1.zip">Download Core</a></td>
 <td><a href="https://discord.com/channels/719326990221574164/1539174975595094088">Discord</a></td>
 </tr>
 <tr>
@@ -151,10 +218,10 @@
 <tr>
 <td><strong>C16/Plus4/264</strong></td>
 <td><a href="computer-cores.html">Home Computer</a></td>
-<td>Mostly functional</td>
+<td>Fully functional</td>
 <td>Yes</td>
-<td><a href="https://files.mega65.org?id=db358ffc-921e-4129-9fa3-c17728f7b37a">Download Core</a></td>
-<td><a href="https://github.com/piso77/C16-MEGA65">Github</a></td>
+<td><a href="https://files.mega65.org?id=04585f68-14c0-43ae-8dd5-6448445ac926">Download Core</a></td>
+<td><a href="https://discord.com/channels/719326990221574164/1482361321218637964">Discord</a></td>
 </tr>
 <tr>
 <td><strong>Commodore 64</strong></td>
@@ -586,13 +653,13 @@ or in the official documentation.</p><h2 id="how-do-i-run-an-alternative-mega65-
         <updated>2024-07-22T12:22:41+02:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Cores Available for all MEGA65 Cores are shown in now particular order. Please look at the right sidebar to get to for the specific Cores.
+                    Cores Available for all MEGA65 Cores are shown in no particular order. Please look at the right sidebar to get to for the specific Cores.
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                 <h1 id="cores-available-for-all-mega65">Cores Available for all MEGA65</h1>
-<p>Cores are shown in now particular order. Please look at the right sidebar to get to for the specific Cores.</p><h2 id="commodore-64-c64">Commodore 64 (C64)</h2>
+<p>Cores are shown in no particular order. Please look at the right sidebar to get to for the specific Cores.</p><h2 id="commodore-64-c64">Commodore 64 (C64)</h2>
 <img loading="lazy" src=Commodore-64-Computer-FL.jpg width="600">
 
 <p><a href="https://en.wikipedia.org/wiki/Commodore_64">https://en.wikipedia.org/wiki/Commodore_64</a></p><p>The Commodore 64 is a personal computer released in 1982. It is the precursor of the (unreleased) C65 which is the machine the MEGA65 is recreating. It is usually abbreviated as just <strong>C64</strong>.</p><img loading="lazy" src=c64coremenu.jpg>
@@ -602,7 +669,7 @@ The core can load disk images (.d64 files) and cartridge images (.crt files) fro
 The Core only supports a PAL C64 system. Programs that only work correctly on NTSC (USA/Japan) systems are not compatible. Please see all details in the documentation.</p><p>The Core is available in versions for R3 and R6 boards.</p><p><strong>Full instructions for this core can be found at <a href="https://c64.mega65.org">https://c64.mega65.org</a></strong></p><p>Download the Core on the MEGA65 Filehost: 
 <a href="https://files.mega65.org/?id=896a012f-59e4-456c-b91f-7e989b958241">https://files.mega65.org/?id=896a012f-59e4-456c-b91f-7e989b958241</a></p><p>The Core discussion on Discord: 
 <a href="https://discord.com/channels/719326990221574164/794775503818588200">https://discord.com/channels/719326990221574164/794775503818588200</a></p><p>The Core issue tracker on Github: 
-<a href="https://github.com/MJoergen/C64MEGA65/issues">https://github.com/MJoergen/C64MEGA65/issues</a></p><p>A new version with MANY new features is currently available for testing. Check out <a href="https://c64.mega65.org/alphasix.html">https://c64.mega65.org/alphasix.html</a> for details.</p><h2 id="amiga-500">Amiga 500</h2>
+<a href="https://github.com/MJoergen/C64MEGA65/issues">https://github.com/MJoergen/C64MEGA65/issues</a></p><p><strong>A new version with MANY new features is currently available for testing. Check out <a href="https://c64.mega65.org/alphasix.html">https://c64.mega65.org/alphasix.html</a> for details.</strong></p><h2 id="amiga-500">Amiga 500</h2>
 <img loading="lazy" src=a500_ocs.jpg width="600">
 
 <p><a href="https://en.wikipedia.org/wiki/Amiga_500">https://en.wikipedia.org/wiki/Amiga_500</a></p><p>Released in 1987, the Amiga 500 (“A500”) was the first computer for the home market capable of multitasking. Although popular with hobbyists, arguably its most widespread use was as a gaming machine, where its graphics and sound were of significant benefit.</p><img loading="lazy" src=amiga1.jpg width="300">
@@ -616,15 +683,22 @@ The Core only supports a PAL C64 system. Programs that only work correctly on NT
 <a href="https://discord.com/channels/719326990221574164/1313409877393276948">https://discord.com/channels/719326990221574164/1313409877393276948</a></p><h2 id="apple-ii">Apple II</h2>
 <img loading="lazy" src=Apple_II_Plus.jpg width="600">
 
-<p><a href="https://en.wikipedia.org/wiki/Apple_II_(original)">https://en.wikipedia.org/wiki/Apple_II_(original)</a></p><p>The Apple II is a personal computer released in 1977. An alpha version of a Core has been released. While it generally works, it has limited disk file compatibility, so you need to read the documentation to prepare your disks to load. (The Core currently only supports the .nib disk format, not the .dsk format).</p><img loading="lazy" src=apple2karateka.jpg>
+<p><a href="https://en.wikipedia.org/wiki/Apple_II_(original)">https://en.wikipedia.org/wiki/Apple_II_(original)</a></p><p>The Apple II is a personal computer released in 1977. An Beta version of a Core has been released. Please make sure remove all Amiga-style mice from the MEGA65 before starting this Core, as these will trigger a diagnostic mode in the Apple II.</p><img loading="lazy" src=apple2karateka.jpg>
 
 <p>You can find the Core on the Filehost: 
 <a href="https://files.mega65.org?id=09c33961-901d-4cd0-8bea-616c37db5c50">https://files.mega65.org?id=09c33961-901d-4cd0-8bea-616c37db5c50</a></p><p>Also you can discuss the Core and get updates on Discord:
-<a href="https://discord.com/channels/719326990221574164/1522848976607641700">https://discord.com/channels/719326990221574164/1522848976607641700</a></p><h2 id="commodore-c16--plus4-264">Commodore C16 &amp; Plus4 (264)</h2>
+<a href="https://discord.com/channels/719326990221574164/1522848976607641700">https://discord.com/channels/719326990221574164/1522848976607641700</a></p><h2 id="amstrad--schneider-cpc-6128">Amstrad / Schneider CPC 6128</h2>
+<img loading="lazy" src= CPC6128.jpg width="600">
+
+<p>The Amstrad CPC (short for “Colour Personal Computer”) is a series of 8-bit home computers produced by Amstrad between 1984 and 1990. The CPC models’ hardware is based on the Zilog Z80A CPU, complemented with either 64 or 128 KB of RAM. Their computer-in-a-keyboard design prominently features an integrated storage device, either a compact cassette deck or 3-inch floppy disk drive.</p><img loading="lazy" src=CPCSpindizyy.jpg>
+
+<p>Download the Core on the MEGA65 Filehost: 
+<a href="https://files.mega65.org?id=87b00453-6bd1-41f9-aec6-48299c73ee1f">https://files.mega65.org?id=87b00453-6bd1-41f9-aec6-48299c73ee1f</a></p><p>Discuss the Core directly on Discord:
+<a href="https://discord.com/channels/719326990221574164/1547606919928353018">https://discord.com/channels/719326990221574164/1547606919928353018</a></p><h2 id="commodore-c16--plus4-264">Commodore C16 &amp; Plus4 (264)</h2>
 <img loading="lazy" src= Commodore_16_002a.jpg width="600">
 
-<p><a href="https://en.wikipedia.org/wiki/Commodore_16">https://en.wikipedia.org/wiki/Commodore_16</a></p><p>The Commodore 16 familiy of computers, sometimes referred to the 264-series, consists of several models, mainly the C16 and the Plus/4. The major differences is the RAM size (16kb or 64kb) and the office software included with the Plus/4.</p><p>The C16 computers lack the Sprite and Scroll capabilities of the C64, but can display significantly more colours. There are quite a few demo programs and games that look better than on a C64, so it is worthwhile checking out.</p><p>The core for the C16 &amp; Plus/4 emulates both ROM versions and both RAM sizes. Like with the C64 core, pressing <kbd>HELP</kbd> will bring up a menu with several options.</p><p>This core can load .prg and .d64 files but will not automatically run them. After selecting a .prg, please wait some seconds until the file has been loaded into RAM, leave the menu, and then type RUN.</p><p>The Core is available in versions for R3 and R6 boards.</p><p>Download the Core on the MEGA65 Filehost: 
-<a href="https://files.mega65.org?id=7a29a797-ae82-4455-8a27-f48cb856e524">https://files.mega65.org?id=7a29a797-ae82-4455-8a27-f48cb856e524</a></p><p>The Core discussion on Discord: 
+<p><a href="https://en.wikipedia.org/wiki/Commodore_16">https://en.wikipedia.org/wiki/Commodore_16</a></p><p>The Commodore 16 familiy of computers, sometimes referred to the 264-series, consists of several models, mainly the C16 and the Plus/4. The major differences is the RAM size (16kb or 64kb) and the office software included with the Plus/4.</p><p>The C16 computers lack the Sprite and Scroll capabilities of the C64, but can display significantly more colours. There are quite a few demo programs and games that look better than on a C64, so it is worthwhile checking out.</p><p>The core for the C16 &amp; Plus/4 emulates both ROM versions and both RAM sizes. Like with the C64 core, pressing <kbd>HELP</kbd> will bring up a menu with several options.</p><p>This core can load .prg and .d64 files but will not automatically run them. After selecting a .prg, please wait some seconds until the file has been loaded into RAM, leave the menu, and then type RUN.</p><p>Two versions of the Core are available and will most likely merge in the future.</p><p>Download the Core on the MEGA65 Filehost: 
+<a href="https://files.mega65.org?id=04585f68-14c0-43ae-8dd5-6448445ac926">https://files.mega65.org?id=04585f68-14c0-43ae-8dd5-6448445ac926</a></p><p>The Core discussion on Discord: 
 <a href="https://discord.com/channels/719326990221574164/1482361321218637964">https://discord.com/channels/719326990221574164/1482361321218637964</a></p><p>The Core issue tracker on Github: 
 <a href="https://github.com/piso77/C16-MEGA65/issues">https://github.com/piso77/C16-MEGA65/issues</a></p><h2 id="commodore-128">Commodore 128</h2>
 <img loading="lazy" src=Commodore-128.jpg width="600">
@@ -671,8 +745,7 @@ ROMs straight from the SD card and run them at the original MSX1 hardware timing
 
 <p><a href="https://en.wikipedia.org/wiki/Atari_8-bit_computers">https://en.wikipedia.org/wiki/Atari_8-bit_computers</a></p><p>The Atari 8-bit computers, formally launched as the Atari Home Computer System, are a series of home computers introduced by Atari, Inc., in 1979 with the Atari 400 and Atari 800. The architecture is designed around the 8-bit MOS Technology 6502 CPU and three custom coprocessors which provide support for sprites, smooth multidirectional scrolling, four channels of audio, and other features. The graphics and sound are more advanced than most of its contemporaries, and video games are a key part of the software library. The 1980 first-person space combat simulator Star Raiders is considered the platform’s killer app.</p><img loading="lazy" src=AtariPolePosition.jpg>
 
-<p>A Version of this Core has been released for public testing and feedback via Discord only (it is not on the Filehost). To download the core, read the instructions and follow the discussion on Discord here:</p><p><a href="https://discord.com/channels/719326990221574164/1539174975595094088/1546478161661792317">https://discord.com/channels/719326990221574164/1539174975595094088/1546478161661792317</a></p><h2 id="amstrad--schneider-cpc">Amstrad / Schneider CPC</h2>
-<p>A Core for the Amstrad CPC machines (know as Schneider in Germany) is in the works. A version for R6 boards has been released for testing. Files for the Core and it’s discussion can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1547606919928353018">https://discord.com/channels/719326990221574164/1547606919928353018</a></p><h2 id="vic-20--vc-20">VIC-20 / VC-20</h2>
+<p>A Version of this Core has been released for public testing and feedback via Discord only (it is not on the Filehost). To download the core, please download the files and read the instructions for setup on Github:</p><p><a href="https://github.com/sho3string/Mega800">https://github.com/sho3string/Mega800</a></p><p>To discuss the latest news about this core, please check Discord:</p><p><a href="https://discord.com/channels/719326990221574164/1539174975595094088/1546478161661792317">https://discord.com/channels/719326990221574164/1539174975595094088/1546478161661792317</a></p><h2 id="vic-20--vc-20">VIC-20 / VC-20</h2>
 <img loading="lazy" src=Commodore-VIC-20-FR.jpg width="600">
 
 <p><a href="https://en.wikipedia.org/wiki/VIC-20">https://en.wikipedia.org/wiki/VIC-20</a></p><p>The VIC-20 (called VC20 in Europe) is a personal computer released in 1980/81.</p><p>An Alpha Version of this Core has been released for public testing and feedback via Discord only (it is not on the Filehost). To download the core, read the instructions and follow the discussion on Discord here:</p><p><a href="https://discord.com/channels/719326990221574164/1282769253921198120">https://discord.com/channels/719326990221574164/1282769253921198120</a></p><p>Further instructions and the source code can be found here:</p><p><a href="https://github.com/MJoergen/VIC20MEGA65">https://github.com/MJoergen/VIC20MEGA65</a></p><h1 id="cores-in-development-unavailable">Cores in Development, unavailable</h1>
@@ -708,7 +781,7 @@ ROMs straight from the SD card and run them at the original MSX1 hardware timing
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="when-is-the-next-core-coming-out">When is the next Core coming out?</h2>
 <p>All Core development is done by enthusiasts with day-time jobs who do awesome work for free. Because of this, your expectation should be that a Core may NEVER be released or updated. There are NO promises for specific cores. People are working on those in their spare time, everything is a labour of love and the purchase of the MEGA65 does not entitle you to any Core (but the original MEGA65 Core).</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
 <p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. There is updated documentation on a programming framework called MISTer2MEGA65 which can help you with converting existing cores. Please start here:</p><p><a href="https://github.com/sy2002/MiSTer2MEGA65/wiki">https://github.com/sy2002/MiSTer2MEGA65/wiki</a></p><h2 id="can-you-add-my-new-core-to-this-list">Can you add my new core to this list?</h2>
-<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <kbd><a href="mailto:&#98;&#111;&#114;&#105;&#115;&#x40;&#100;&#114;&#x65;&#105;&#115;&#x65;&#x63;&#104;&#x7a;&#x69;&#103;&#46;&#110;&#101;&#x74;">&#98;&#111;&#114;&#105;&#115;&#x40;&#100;&#114;&#x65;&#105;&#115;&#x65;&#x63;&#104;&#x7a;&#x69;&#103;&#46;&#110;&#101;&#x74;</a></kbd>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <kbd><a href="mailto:&#98;&#111;&#x72;&#105;&#115;&#64;&#100;&#114;&#101;&#x69;&#x73;&#101;&#99;&#x68;&#x7a;&#x69;&#x67;&#x2e;&#x6e;&#101;&#x74;">&#98;&#111;&#x72;&#105;&#115;&#64;&#100;&#114;&#101;&#x69;&#x73;&#101;&#99;&#x68;&#x7a;&#x69;&#x67;&#x2e;&#x6e;&#101;&#x74;</a></kbd>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
 <p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="where-are-the-cores">Where are the cores?</h2>
 <h1 id="home-computers"><a href="computer-cores.html">Home Computers</a></h1>
 <h1 id="arcade-games"><a href="arcade-cores.html">Arcade Games</a></h1>
