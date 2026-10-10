@@ -7,8 +7,6 @@ To recreate the game two parts are needed: An FPGA Core and image files for the 
 
 Some Arcade Machine Cores support "DIP Switches". This refers to the switches on the arcade board itself and these are shown on screen. **Do not open the MEGA65 to change the DIP switches inside.**
 
-# Cores Available for all MEGA65
-
 ## Bank Panic
 <img src="BankPanic.png" style="float:right;width:200px">
 Bank Panic is an Arcade game by Sega from 1984.
@@ -19,9 +17,23 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/BankPanicMEGA65_R3_R6
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org/?id=36b41376-b2c6-45e6-a441-cd126357fdd4
+
+## Black Tiger
+<img src="blacktiger.png" style="float:right;width:200px">
+Black Tiger is an Arcade game by Capcom from 1987.
+
+https://en.wikipedia.org/wiki/Black_Tiger_(video_game)
+
+Please follow the exact installation instructions from here:
+
+https://github.com/sho3string/BlackTiger_MEGA65_r3_r6/
+
+Download the Core from the MEGA65 Filehost here:
+
+https://files.mega65.org?id=b4c166ba-fefc-4269-9091-4a29956d58d8
 
 ## Bomb Jack
 <img src="BombJack.png" style="float:right;width:200px">
@@ -33,7 +45,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/BombjackMEGA65
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org/?id=f3ddcbd5-a6c1-42cd-aa9c-db25dfd71c90
 
@@ -47,7 +59,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/BosconianMEGA65
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org/?id=96dd324b-d611-4252-bea4-0dbc4eb899ae
 
@@ -61,7 +73,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/BurningRubberMEGA65
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org/?id=6a96f6de-2673-40c0-9304-5720fe8ce144
 
@@ -77,7 +89,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/SEGASYS1MEGA65_R3
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=3c51011a-f228-49e7-b795-2b8afe6db5fa
 
@@ -91,13 +103,26 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/DigDugMEGA65_R3_R6
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org/?id=b5fb8733-4850-403c-a7dc-3e9a84a44b0c
 
+## Elevator Action
+<img src="ElevatorAction.png" style="float:right;width:200px">
+Elevator Action is an Arcade game by Taito from 1983.
+
+https://en.wikipedia.org/wiki/Elevator_Action
+
+Please follow the exact installation instructions from here:
+
+https://github.com/sho3string/ElevatorAction_MEGA65_R3_R6/
+
+Download the Core from the MEGA65 Filehost here:
+
+https://files.mega65.org?id=e2ee129d-149c-4b59-9ced-d21185878091
+
 
 ## Galaga
-
 <img src="Galaga.png" style="float:right;width:200px">
 Galaga is an Arcade game by Namco from 1981.
 
@@ -107,11 +132,11 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/GalagaMEGA65
 
-Download the R3 Core from the MEGA65 filehost here:
+Download the R3 Core from the MEGA65 Filehost here:
 
 https://files.mega65.org/?id=8bc248e3-c29c-4ba8-b8c3-6018a995a9ea
 
-Download the R6 Core from the MEGA65 filehost here:
+Download the R6 Core from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=1672149c-66d3-4df7-9128-e9c83095c49a
 
@@ -125,7 +150,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/GalaxianMEGA65_r3_r6/
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=f024a865-8751-4292-ac66-439daa696ad6
 
@@ -139,7 +164,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/GaplusMEGA65_R3_R6
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=a87ab90e-06bc-40bb-8257-6988345d7784
 
@@ -155,11 +180,11 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/GnGMEGA65
 
-Download the R3 Core from the MEGA65 filehost here:
+Download the R3 Core from the MEGA65 Filehost here:
 
 https://files.mega65.org/?id=e563df76-e12f-47de-9bb2-cca4ebe1e18d
 
-Download the R6 Core from the MEGA65 filehost here:
+Download the R6 Core from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=f66965dc-4006-4ebe-8fde-eed9bc60d3aa
 
@@ -173,7 +198,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/RushnAttackMEGA65_r3_r6
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org/?id=9c83c178-f55c-4ce2-8d0f-1aacd5ae70b4
 
@@ -187,7 +212,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/GyrussMEGA65_R3_R6
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=c1486390-3264-4027-8131-552a785cac33
 
@@ -201,7 +226,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/MoonPatrolMEGA65_r3_r6
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=4a864fa1-5d65-4dd9-a5ef-dd7ce07114e8
 
@@ -215,7 +240,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/MrDO_MEGA65_r3_r6/
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=b115db76-d9a9-4a93-b751-da34c80cfe1c
 
@@ -229,6 +254,16 @@ Please follow the exact installation instructions and download the Core from her
 
 https://files.mega65.org?id=d1dce404-d484-472a-87ab-21755979d2fa
 
+## Space Invaders
+<img src="spaceinvaders.png" style="float:right;width:200px">
+Space Invaders is an Arcade game by Taito from 1978.
+
+https://en.wikipedia.org/wiki/Space_Invaders
+
+Download the Core and follow the instructions from the MEGA65 Filehost here:
+
+https://files.mega65.org?id=86e35b07-d472-4b85-ad22-fbf9762df294
+
 ## Stargate
 <img src="Stargate.png" style="float:right;width:200px">
 Stargate is an Arcade game by Williams from 1981.
@@ -239,7 +274,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/StargateMEGA65_R3_R6/blob/Stargate_R3_R6/README.md
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=fb977a9b-3979-4420-99f2-c683f52070b7
 
@@ -249,7 +284,7 @@ Up'n Down is an Arcade game by Sega from 1983.
 
 https://en.wikipedia.org/wiki/Up%27n_Down
 
-Download the Core (and read the instructions) from the MEGA65 filehost here:
+Download the Core (and read the instructions) from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=dfadf67d-b55f-4c4d-8cb5-c903161e0668
 
@@ -263,7 +298,7 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/SEGASYS1MEGA65
 
-Download the Core from the MEGA65 filehost here:
+Download the Core from the MEGA65 Filehost here:
 
 https://files.mega65.org/?id=7365cb17-4375-45d3-a833-a89a38266c5e
 
@@ -291,34 +326,15 @@ Please follow the exact installation instructions from here:
 
 https://github.com/sho3string/XeviousMEGA65
 
-Download the R3 Core from the MEGA65 filehost here:
+Download the R3 Core from the MEGA65 Filehost here:
 
 https://files.mega65.org/?id=d32474e9-6f30-48f8-bba3-167cad4bbc4f
 
-Download the R6 Core from the MEGA65 filehost here:
+Download the R6 Core from the MEGA65 Filehost here:
 
 https://files.mega65.org?id=c67076de-8dd5-4877-8c95-7a01d2cae441
 
 _Please note that this Core supports several versions of the game, including the releases from Atari for the USA as well as Super Xevious._
-
-# Cores Available only for R3 MEGA65
-
-## Elevator Action (R3 only)
-[**This core currently is NOT AVAILABLE for the R6 MEGA65**](mega65-revisions-and-cores.html)
-
-<img src="ElevatorAction.png" style="float:right;width:200px">
-Elevator Action is an Arcade game by Taito from 1983.
-
-https://en.wikipedia.org/wiki/Elevator_Action
-
-Please follow the exact installation instructions from here:
-
-https://github.com/sho3string/ElevatorActionMEGA65
-
-Download the Core from the MEGA65 filehost here:
-
-https://files.mega65.org/?id=e2ee129d-149c-4b59-9ced-d21185878091
-
 
 # Sources
 All screenshots on this page are sourced from https://screenscraper.fr
