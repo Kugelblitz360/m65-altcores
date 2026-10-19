@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2026-10-12T18:00:00+02:00</updated>
+    <updated>2026-10-19T23:27:06+02:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -119,12 +119,12 @@
         <updated>2024-07-22T15:18:18+02:00</updated>
             <summary type="html">
                 <![CDATA[
-                    This list is up-to-date until October 12th 2026. It will be updated roughly once per week. Please send updates via Email to &#98;&#x6f;&#x72;&#105;&#115;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#x68;&#x7a;&#x69;&#x67;&#x2e;&#110;&#x65;&#116;. The following&hellip;
+                    This list is up-to-date until October 19th 2026. It will be updated roughly once per week. Please send updates via Email to &#x62;&#111;&#x72;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#104;&#122;&#105;&#103;&#46;&#x6e;&#x65;&#x74;. The following&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>This list is up-to-date until October 12th 2026. It will be updated roughly once per week. Please send updates via Email to <a href="mailto:&#98;&#x6f;&#x72;&#105;&#115;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#x68;&#x7a;&#x69;&#x67;&#x2e;&#110;&#x65;&#116;">&#98;&#x6f;&#x72;&#105;&#115;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#x68;&#x7a;&#x69;&#x67;&#x2e;&#110;&#x65;&#116;</a>.</p><h2 id="stable-computer-core-releases">Stable Computer Core releases</h2>
+                <p>This list is up-to-date until October 19th 2026. It will be updated roughly once per week. Please send updates via Email to <a href="mailto:&#x62;&#111;&#x72;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#104;&#122;&#105;&#103;&#46;&#x6e;&#x65;&#x74;">&#x62;&#111;&#x72;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#104;&#122;&#105;&#103;&#46;&#x6e;&#x65;&#x74;</a>.</p><h2 id="stable-computer-core-releases">Stable Computer Core releases</h2>
 <p>The following Cores have been tested by several users, are fully functional and are considered to be ready for standard usage.</p><table>
 <thead>
 <tr>
@@ -214,14 +214,14 @@
 </tr>
 </tbody></table>
 <h2 id="work-in-progress-computer-core-releases">Work-in-Progress Computer Core Releases</h2>
-<p>This is a list of Cores that are not finalized yet and need more testing and might get several updates every week. Therefore we only put links to the Discord and the Github issues page, but no direct download links here. 
+<p>This is a list of Cores that are not finalized yet and need more testing and might get several updates every week. Therefore we only put links to the Discord and the Github issues page, but no direct download links here - unless there is no Discord yet.
 Expect errors, missing menu items or other strange effects. Please test and post your issues, <em>preferably to the Github issues</em>, so that the developers can follow up.
 Cores marked as <strong>wants more testing</strong> already have a couple of users testing and submitting reports. <strong>NEEDS testing</strong> is for Cores that really have not enough people yet testing and filing reports.</p><table>
 <thead>
 <tr>
 <th>Home Computer System</th>
-<th>Discord Discussion</th>
-<th>Github Issues Page</th>
+<th>Link 1</th>
+<th>Link 2</th>
 <th>Comment</th>
 </tr>
 </thead>
@@ -235,13 +235,19 @@ Cores marked as <strong>wants more testing</strong> already have a couple of use
 <td>Amiga 600 / 1200</td>
 <td><a href="https://discord.com/channels/719326990221574164/1313409877393276948">Discord</a></td>
 <td><a href="https://github.com/johansmolinski/Megamiga/issues">Issues</a></td>
-<td><strong>Currently only for R6 machines.</strong> Adds ECS and AGA as well as harddrive emulation and Ethernet support. <strong>NEEDS testing</strong></td>
+<td><strong>Currently only for R6 machines.</strong> Adds ECS and AGA as well as harddrive emulation and Ethernet support. <strong>Wants more testing</strong></td>
 </tr>
 <tr>
 <td>Atari XL/XE</td>
 <td><a href="https://discord.com/channels/719326990221574164/1539174975595094088">Discord</a></td>
 <td><a href="https://github.com/sho3string/Mega800/issues">Issues</a></td>
 <td>Good compatibilty, some features not yet implemented, <strong>NEEDS testing</strong></td>
+</tr>
+<tr>
+<td>Amstrad PCW</td>
+<td><a href="https://files.mega65.org?id=ec23a68a-2291-4c0a-af89-4a89cec77311">Filehost</a></td>
+<td>N/A</td>
+<td>CP/M Computer from Amstrad, <strong>NEEDS testing</strong></td>
 </tr>
 <tr>
 <td>BIT90</td>
@@ -253,7 +259,7 @@ Cores marked as <strong>wants more testing</strong> already have a couple of use
 <td>C128</td>
 <td><a href="https://discord.com/channels/719326990221574164/1519078295277404300">Discord</a></td>
 <td><a href="https://github.com/eilers/c128Mega65/issues">Issues</a></td>
-<td>Still compatibility issues, <strong>Wants more testing</strong></td>
+<td>Very complete now, <strong>Wants some more testing</strong></td>
 </tr>
 <tr>
 <td>C16 / Plus4 Extended</td>
@@ -278,6 +284,12 @@ Cores marked as <strong>wants more testing</strong> already have a couple of use
 <td><a href="https://discord.com/channels/719326990221574164/1555600426697625610">Discord</a></td>
 <td></td>
 <td>Historically interesting machine (War Games) with some bundled software on <a href="https://files.mega65.org?id=805eb9b2-856c-47e8-87ca-2ba921ec94a0">Filehost</a></td>
+</tr>
+<tr>
+<td>Spectrum Next</td>
+<td><a href="https://files.mega65.org?id=783ae649-e86a-419b-b61b-c09ffea653ca">Filehost</a></td>
+<td><a href="https://github.com/freemchr/MegaZXNext/issues">Issues</a></td>
+<td><strong>Untested so far</strong></td>
 </tr>
 <tr>
 <td>VIC-20 / VC20</td>
@@ -313,7 +325,17 @@ Cores marked as <strong>wants more testing</strong> already have a couple of use
         <content type="html">
             <![CDATA[
                 <p>The MEGA65 can also be turned into an arcade game machine. As many early arcade games rely on fast reaction times, an FPGA-based recreation is much more faithful than software emulation. Unfortunately, arcade games usually require a complete FPGA slot for a single game.</p><h2 id="important-details-about-arcade-games">Important Details about Arcade Games</h2>
-<p>To recreate the game two parts are needed: An FPGA Core and image files for the ROMs. The Core is like a Core for a home computer and only has the “hardware” part of the machine. It still requires the actual software, which is a seperate file, even if the Core can only play one specific game. Arcade Game ROMs are available in many flavours on internet, but the Core usually requires a very specific format. You need to read the instructions per Core very carefully and follow them to the letter to create the correct files. This in some cases requires <em>Python</em> on your computer. Due to copyright and licensing reasons, there is no official archive where Cores and ROMs are bundled ready to use.</p><p>Some Arcade Machine Cores support “DIP Switches”. This refers to the switches on the arcade board itself and these are shown on screen. <strong>Do not open the MEGA65 to change the DIP switches inside.</strong></p><h2 id="bank-panic">Bank Panic</h2>
+<p>To recreate the game two parts are needed: An FPGA Core and image files for the ROMs. The Core is like a Core for a home computer and only has the “hardware” part of the machine. It still requires the actual software, which is a seperate file, even if the Core can only play one specific game. Arcade Game ROMs are available in many flavours on internet, but the Core usually requires a very specific format. You need to read the instructions per Core very carefully and follow them to the letter to create the correct files. This in some cases requires <em>Python</em> on your computer. Due to copyright and licensing reasons, there is no official archive where Cores and ROMs are bundled ready to use.</p><p>Some Arcade Machine Cores support “DIP Switches”. This refers to the switches on the arcade board itself and these are shown on screen. <strong>Do not open the MEGA65 to change the DIP switches inside.</strong></p><h2 id="1942">1942</h2>
+<img loading="lazy" src="1942.png" style="float:right;width:200px" data-is-external-image="true">
+1942 is an Arcade game by Capcom from 1984
+
+<p><a href="https://en.wikipedia.org/wiki/1942_(video_game)">https://en.wikipedia.org/wiki/1942_(video_game)</a></p><p>The Core is only available on Github:
+<a href="https://github.com/sho3string/1942_MEGA65_r3_r6">https://github.com/sho3string/1942_MEGA65_r3_r6</a></p><p>Please follow the instructions found there for installation.</p><h2 id="1943">1943</h2>
+<img loading="lazy" src="1943.png" style="float:right;width:200px" data-is-external-image="true">
+1943 is an Arcade game by Capcom from 1987
+
+<p><a href="https://en.wikipedia.org/wiki/1943:_The_Battle_of_Midway">https://en.wikipedia.org/wiki/1943:_The_Battle_of_Midway</a></p><p>The Core is only available on Github:
+<a href="https://github.com/sho3string/1943_MEGA65_r3_r6">https://github.com/sho3string/1943_MEGA65_r3_r6</a></p><p>Please follow the instructions found there for installation.</p><h2 id="bank-panic">Bank Panic</h2>
 <img loading="lazy" src="BankPanic.png" style="float:right;width:200px" data-is-external-image="true">
 Bank Panic is an Arcade game by Sega from 1984.
 
@@ -335,9 +357,14 @@ Burnin Rubber is an Arcade game by Data East from 1982. Outside of Japan it is c
 
 <p><a href="https://en.wikipedia.org/wiki/Bump_%27n%27_Jump">https://en.wikipedia.org/wiki/Bump_%27n%27_Jump</a></p><p>Please follow the exact installation instructions from here:</p><p><a href="https://github.com/sho3string/BurningRubberMEGA65">https://github.com/sho3string/BurningRubberMEGA65</a></p><p>Download the Core from the MEGA65 Filehost here:</p><p><a href="https://files.mega65.org/?id=6a96f6de-2673-40c0-9304-5720fe8ce144">https://files.mega65.org/?id=6a96f6de-2673-40c0-9304-5720fe8ce144</a></p><p><em>Please note that the Core does not support the US version of this arcade game, called Bump’n’Jump.</em></p><h2 id="choplifter">Choplifter</h2>
 <img loading="lazy" src="Choplifter.png" style="float:right;width:200px" data-is-external-image="true">
-Choplifter is an Arcade game by Sega from 1985. It is based on the computer game originally for the Apple II computers from 1982 (and also ported to the C64).
+Choplifter is an Arcade game by Capcom from 1985.
 
-<p><a href="https://en.wikipedia.org/wiki/Choplifter">https://en.wikipedia.org/wiki/Choplifter</a></p><p>Please follow the exact installation instructions from here:</p><p><a href="https://github.com/sho3string/SEGASYS1MEGA65_R3">https://github.com/sho3string/SEGASYS1MEGA65_R3</a></p><p>Download the Core from the MEGA65 Filehost here:</p><p><a href="https://files.mega65.org?id=3c51011a-f228-49e7-b795-2b8afe6db5fa">https://files.mega65.org?id=3c51011a-f228-49e7-b795-2b8afe6db5fa</a></p><h2 id="dig-dug">Dig Dug</h2>
+<p><a href="https://en.wikipedia.org/wiki/Choplifter">https://en.wikipedia.org/wiki/Choplifter</a></p><p>Please follow the exact installation instructions from here:</p><p><a href="https://github.com/sho3string/SEGASYS1MEGA65_R3">https://github.com/sho3string/SEGASYS1MEGA65_R3</a></p><p>Download the Core from the MEGA65 Filehost here:</p><p><a href="https://files.mega65.org?id=3c51011a-f228-49e7-b795-2b8afe6db5fa">https://files.mega65.org?id=3c51011a-f228-49e7-b795-2b8afe6db5fa</a></p><h2 id="commando">Commando</h2>
+<img loading="lazy" src="commando.png" style="float:right;width:200px" data-is-external-image="true">
+Commando is an Arcade game by Capcom from 1985.
+
+<p><a href="https://en.wikipedia.org/wiki/Commando_(video_game)">https://en.wikipedia.org/wiki/Commando_(video_game)</a></p><p>The Core is only available on Github:
+<a href="https://github.com/sho3string/Commando_MEGA65_r3_r6">https://github.com/sho3string/Commando_MEGA65_r3_r6</a></p><p>Please follow the instructions found there for installation.</p><h2 id="dig-dug">Dig Dug</h2>
 <img loading="lazy" src="DigDug.png" style="float:right;width:200px" data-is-external-image="true">
 Dig Dug is an Arcade game by Namco from 1982.
 
@@ -345,7 +372,11 @@ Dig Dug is an Arcade game by Namco from 1982.
 <img loading="lazy" src="ElevatorAction.png" style="float:right;width:200px" data-is-external-image="true">
 Elevator Action is an Arcade game by Taito from 1983.
 
-<p><a href="https://en.wikipedia.org/wiki/Elevator_Action">https://en.wikipedia.org/wiki/Elevator_Action</a></p><p>Please follow the exact installation instructions from here:</p><p><a href="https://github.com/sho3string/ElevatorAction_MEGA65_R3_R6/">https://github.com/sho3string/ElevatorAction_MEGA65_R3_R6/</a></p><p>Download the Core from the MEGA65 Filehost here:</p><p><a href="https://files.mega65.org?id=e2ee129d-149c-4b59-9ced-d21185878091">https://files.mega65.org?id=e2ee129d-149c-4b59-9ced-d21185878091</a></p><h2 id="galaga">Galaga</h2>
+<p><a href="https://en.wikipedia.org/wiki/Elevator_Action">https://en.wikipedia.org/wiki/Elevator_Action</a></p><p>Please follow the exact installation instructions from here:</p><p><a href="https://github.com/sho3string/ElevatorAction_MEGA65_R3_R6/">https://github.com/sho3string/ElevatorAction_MEGA65_R3_R6/</a></p><p>Download the Core from the MEGA65 Filehost here:</p><p><a href="https://files.mega65.org?id=e2ee129d-149c-4b59-9ced-d21185878091">https://files.mega65.org?id=e2ee129d-149c-4b59-9ced-d21185878091</a></p><h2 id="exed-exes">Exed Exes</h2>
+<img loading="lazy" src="exedexes.png" style="float:right;width:200px" data-is-external-image="true">
+Exed Exes (Savage Bees) is an Arcade game by Capcom from 1985.
+
+<p><a href="https://en.wikipedia.org/wiki/Savage_Bees">https://en.wikipedia.org/wiki/Savage_Bees</a></p><p>Only available on Github:</p><p><a href="https://github.com/sho3string/ExedExes_MEGA65_r3_r6">https://github.com/sho3string/ExedExes_MEGA65_r3_r6</a></p><p>Please follow the instructions found there for installation.</p><h2 id="galaga">Galaga</h2>
 <img loading="lazy" src="Galaga.png" style="float:right;width:200px" data-is-external-image="true">
 Galaga is an Arcade game by Namco from 1981.
 
@@ -365,7 +396,12 @@ Ghosts 'n Goblins is an Arcade game by Capcom from 1985.
 <img loading="lazy" src="RushnAttack.png" style="float:right;width:200px" data-is-external-image="true">
 Rush'n Attack, known as Green Beret in Europe, is an Arcade game by Konami from 1985.
 
-<p><a href="https://en.wikipedia.org/wiki/Rush%27n_Attack">https://en.wikipedia.org/wiki/Rush%27n_Attack</a></p><p>Please follow the exact installation instructions from here:</p><p><a href="https://github.com/sho3string/RushnAttackMEGA65_r3_r6">https://github.com/sho3string/RushnAttackMEGA65_r3_r6</a></p><p>Download the Core from the MEGA65 Filehost here:</p><p><a href="https://files.mega65.org/?id=9c83c178-f55c-4ce2-8d0f-1aacd5ae70b4">https://files.mega65.org/?id=9c83c178-f55c-4ce2-8d0f-1aacd5ae70b4</a></p><h2 id="gyruss">Gyruss</h2>
+<p><a href="https://en.wikipedia.org/wiki/Rush%27n_Attack">https://en.wikipedia.org/wiki/Rush%27n_Attack</a></p><p>Please follow the exact installation instructions from here:</p><p><a href="https://github.com/sho3string/RushnAttackMEGA65_r3_r6">https://github.com/sho3string/RushnAttackMEGA65_r3_r6</a></p><p>Download the Core from the MEGA65 Filehost here:</p><p><a href="https://files.mega65.org/?id=9c83c178-f55c-4ce2-8d0f-1aacd5ae70b4">https://files.mega65.org/?id=9c83c178-f55c-4ce2-8d0f-1aacd5ae70b4</a></p><h2 id="gunsmoke">Gunsmoke</h2>
+<img loading="lazy" src="gunsmoke.png" style="float:right;width:200px" data-is-external-image="true">
+Gunsmoke is an Arcade Game by Capcom from 1985.
+
+<p><a href="https://en.wikipedia.org/wiki/Gun.Smoke">https://en.wikipedia.org/wiki/Gun.Smoke</a></p><p>The Core is only available on Github:
+<a href="https://github.com/sho3string/Gunsmoke_MEGA65_r3_r6">https://github.com/sho3string/Gunsmoke_MEGA65_r3_r6</a></p><p>Please follow the instructions found there for installation.</p><h2 id="gyruss">Gyruss</h2>
 <img loading="lazy" src="Gyruss.png" style="float:right;width:200px" data-is-external-image="true">
 Gyruss is an Arcade game by Konami from 1983.
 
@@ -639,7 +675,7 @@ ROMs straight from the SD card and run them at the original MSX1 hardware timing
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="when-is-the-next-core-coming-out">When is the next Core coming out?</h2>
 <p>All Core development is done by enthusiasts with day-time jobs who do awesome work for free. Because of this, your expectation should be that a Core may NEVER be released or updated. There are NO promises for specific cores. People are working on those in their spare time, everything is a labour of love and the purchase of the MEGA65 does not entitle you to any Core (but the original MEGA65 Core).</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
 <p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. There is updated documentation on a programming framework called MISTer2MEGA65 which can help you with converting existing cores. Please start here:</p><p><a href="https://github.com/sy2002/MiSTer2MEGA65/wiki">https://github.com/sy2002/MiSTer2MEGA65/wiki</a></p><h2 id="can-you-add-my-new-core-to-this-list">Can you add my new core to this list?</h2>
-<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <kbd><a href="mailto:&#x62;&#x6f;&#x72;&#x69;&#x73;&#64;&#100;&#114;&#101;&#x69;&#115;&#101;&#x63;&#x68;&#x7a;&#x69;&#103;&#46;&#x6e;&#x65;&#116;">&#x62;&#x6f;&#x72;&#x69;&#x73;&#64;&#100;&#114;&#101;&#x69;&#115;&#101;&#x63;&#x68;&#x7a;&#x69;&#103;&#46;&#x6e;&#x65;&#116;</a></kbd>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <kbd><a href="mailto:&#98;&#x6f;&#114;&#105;&#x73;&#64;&#100;&#x72;&#101;&#105;&#115;&#x65;&#99;&#104;&#x7a;&#x69;&#x67;&#x2e;&#110;&#x65;&#x74;">&#98;&#x6f;&#114;&#105;&#x73;&#64;&#100;&#x72;&#101;&#105;&#115;&#x65;&#99;&#104;&#x7a;&#x69;&#x67;&#x2e;&#110;&#x65;&#x74;</a></kbd>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
 <p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="where-are-the-cores">Where are the cores?</h2>
 <h1 id="home-computers"><a href="computer-cores.html">Home Computers</a></h1>
 <h1 id="arcade-games"><a href="arcade-cores.html">Arcade Games</a></h1>
