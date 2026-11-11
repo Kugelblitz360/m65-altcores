@@ -3,7 +3,7 @@
     <title>MEGA65 Alternative Cores</title>
     <link href="https://kugelblitz360.github.io/m65-altcores/feed.xml" rel="self" />
     <link href="https://kugelblitz360.github.io/m65-altcores" />
-    <updated>2026-10-19T23:27:06+02:00</updated>
+    <updated>2026-11-11T22:37:10+01:00</updated>
     <author>
         <name>Boris Schneider-Johne</name>
     </author>
@@ -27,17 +27,8 @@
             <![CDATA[
                 <p>This is a short overview of common commands for people that only know the C64 (and other Commodore computers) and want to try out other computer Cores to play some games. This is no full documentation, just the bare essentials to get started. Systems are shown in alphabetical order.</p><h2 id="amiga-500">Amiga 500</h2>
 <h3 id="good-to-know">Good to know</h3>
-<p>The current version of the <strong>official</strong> Amiga 500 Core does only support disks and not harddisks. So “WHDLoad” games will not work at all. Also some games require all RAM available to themselves. For this you need to disable all drives but <code>df0:</code> in the settings. And finally, some game do not like the extra memory available. For these you need to disable <code>Slow RAM</code> in the settings.</p><h3 id="the-megamiga-fork">The Megamiga fork</h3>
-<p>On <a href="https://github.com/johansmolinski/Megamiga">https://github.com/johansmolinski/Megamiga</a> you can find a fork of the Amiga 500 Core that will only work on <strong>R6</strong> machines, but adds emulation of the Amiga 600 and the Amiga 1200, including hard drive support. If you can supply the unencrypted Amiga 1200 Kickstart 3.10 (MD5: 646773759326fbac3b2311fd8c8793ee) you can run the AmigaVision <strong>Mini</strong> version (the full version does not fit onto a FAT32 card).</p><ul>
-<li>Rename AmigaVision-Mini.hdf to a1200.hdf and AmigaVision-Saves.hdf to a1200-1.hdf and put them into the Amiga dir on the SD card.</li>
-<li>Get an Amiga 1200 Kickstart and install as in the Megamiga instructions</li>
-<li>Set the System to Amiga 1200 and manually also set RAM to “Zorro III RAM (16 MB)”</li>
-<li>Amiga will reboot (takes a while, black screen) and end in the AmigaVision menu</li>
-<li>Menu unfortunately does NOT work as it tries to call an AmigaEmulator - just press ESC to get to Workbench</li>
-<li>On Workbench, click the DATA drive (SD Card with a Heart), then the WHD Drawer, then the <strong>G</strong> drawer to find alphabetically sorted games</li>
-<li>To start a game, double click the game name without an extension; read the screen as many games have a distinct key to get back to workbench</li>
-</ul>
-<h2 id="amstrad--schneider-cpc">Amstrad / Schneider CPC</h2>
+<p>The current version of the <strong>main</strong> Amiga 500 Core does only support disks and not harddisks. So “WHDLoad” games will not work at all. Also some games require all RAM available to themselves. For this you need to disable all drives but <code>df0:</code> in the settings. And finally, some game do not like the extra memory available. For these you need to disable <code>Slow RAM</code> in the settings.</p><h3 id="the-megamiga-fork">The Megamiga fork</h3>
+<p>On <a href="https://github.com/johansmolinski/Megamiga">https://github.com/johansmolinski/Megamiga</a> you can find a fork of the Amiga 500 Core that will only work on <strong>R6</strong> machines, but adds emulation of the Amiga 600 and the Amiga 1200, including hard drive support. If you can supply the unencrypted Amiga 1200 Kickstart 3.10 (MD5: 646773759326fbac3b2311fd8c8793ee) you can run the full AmigaVision image for MiSTER (10 GB size) by reformatting an SD card and adding it as a 3rd partition. Instructions are in a tool that can be found on the Filehost:</p><p><a href="https://files.mega65.org?id=193be07e-b206-4d79-b5ab-f5b50e34e9a6">https://files.mega65.org?id=193be07e-b206-4d79-b5ab-f5b50e34e9a6</a></p><h2 id="amstrad--schneider-cpc">Amstrad / Schneider CPC</h2>
 <h3 id="good-to-know-1">Good to know</h3>
 <p>When you are ONLY using an analog monitor and not HDMI output, please press  <kbd>HELP</kbd> once to start the display. The initial screen is only visible on HDMI.</p><h3 id="loading-from-disks">Loading from disks</h3>
 <p>To load a game you need a <code>.dsk</code> image of the game (or use the tools in the <kbd>HELP</kbd> menu to read a real disk). There is not automatic boot. You need to find out how to start the program by typing <code>CAT</code> and pressing  <kbd>RETURN</kbd>. Most often the game is started by the very first file you see like <code>GAME.BAS</code>. You then need to type <code>RUN "GAME</code> and press <kbd>RETURN</kbd>. The Amstrads do not have wildcards like the C64 for filenames, but you can at least skip the extension and the second quote.</p><h2 id="apple-ii">Apple II</h2>
@@ -119,13 +110,13 @@
         <updated>2024-07-22T15:18:18+02:00</updated>
             <summary type="html">
                 <![CDATA[
-                    This list is up-to-date until October 19th 2026. It will be updated roughly once per week. Please send updates via Email to &#x62;&#111;&#x72;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#104;&#122;&#105;&#103;&#46;&#x6e;&#x65;&#x74;. The following&hellip;
+                    This list is up-to-date until November 11th 2026. It will be updated roughly once per week. Please send updates via Email to &#98;&#x6f;&#114;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#x73;&#101;&#99;&#x68;&#x7a;&#105;&#x67;&#x2e;&#110;&#101;&#116;. The following&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <p>This list is up-to-date until October 19th 2026. It will be updated roughly once per week. Please send updates via Email to <a href="mailto:&#x62;&#111;&#x72;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#104;&#122;&#105;&#103;&#46;&#x6e;&#x65;&#x74;">&#x62;&#111;&#x72;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#115;&#101;&#99;&#104;&#122;&#105;&#103;&#46;&#x6e;&#x65;&#x74;</a>.</p><h2 id="stable-computer-core-releases">Stable Computer Core releases</h2>
-<p>The following Cores have been tested by several users, are fully functional and are considered to be ready for standard usage.</p><table>
+                <p>This list is up-to-date until November 11th 2026. It will be updated roughly once per week. Please send updates via Email to <a href="mailto:&#98;&#x6f;&#114;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#x73;&#101;&#99;&#x68;&#x7a;&#105;&#x67;&#x2e;&#110;&#101;&#116;">&#98;&#x6f;&#114;&#105;&#x73;&#x40;&#100;&#x72;&#101;&#105;&#x73;&#101;&#99;&#x68;&#x7a;&#105;&#x67;&#x2e;&#110;&#101;&#116;</a>.</p><h2 id="stable-computer-core-releases">Stable Computer Core releases</h2>
+<p>The following Cores have been tested by several users, are fully functional and are considered to be ready for standard usage. Cores without any active posting users or developers or missing info have been removed from this list.</p><table>
 <thead>
 <tr>
 <th>Computer System</th>
@@ -157,7 +148,7 @@
 <td><a href="https://discord.com/channels/719326990221574164/1534059027011473520">Discord</a></td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Atari_ST">Atari ST</a></td>
+<td><a href="https://en.wikipedia.org/wiki/Atari_ST">Atari ST/STe/Falcon</a></td>
 <td><a href="https://github.com/freemchr/MegaST/blob/master/README.md">Docs</a></td>
 <td><a href="https://files.mega65.org?id=56aac4bb-9cff-4455-91af-6e95bf9f1969">Filehost</a></td>
 <td><a href="https://github.com/freemchr/MegaST">Github</a></td>
@@ -165,8 +156,8 @@
 </tr>
 <tr>
 <td><a href="https://en.wikipedia.org/wiki/Commodore_16">C16 &amp; Plus/4</a></td>
-<td>Not available</td>
-<td><a href="https://files.mega65.org?id=7a29a797-ae82-4455-8a27-f48cb856e524">Filehost</a></td>
+<td><a href="https://github.com/piso77/C16-MEGA65/blob/master/README.md">Docs</a></td>
+<td><a href="https://files.mega65.org?id=9c305bfd-1c0e-4838-99cb-00bbc940fe3a">Filehost</a></td>
 <td><a href="https://github.com/piso77/C16-MEGA65">Github</a></td>
 <td><a href="https://discord.com/channels/719326990221574164/1482361321218637964">Discord</a></td>
 </tr>
@@ -176,6 +167,13 @@
 <td><a href="https://files.mega65.org?id=896a012f-59e4-456c-b91f-7e989b958241">Filehost</a></td>
 <td><a href="https://github.com/MJoergen/C64MEGA65">Github</a></td>
 <td><a href="https://discord.com/channels/719326990221574164/794775503818588200">Discord</a></td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Commodore_128">C128</a></td>
+<td><a href="https://wiki.eilers-online.net/C128Mega65_Doc">Docs</a></td>
+<td><a href="https://files.mega65.org?id=192560f2-60f6-4b51-be37-aabb8e896151">Filehost</a></td>
+<td><a href="https://github.com/eilers/c128Mega65">Github</a></td>
+<td><a href="https://discord.com/channels/719326990221574164/1519078295277404300">Discord</a></td>
 </tr>
 <tr>
 <td><a href="https://en.wikipedia.org/wiki/Commodore_PET">Commodore PET series</a></td>
@@ -192,18 +190,18 @@
 <td>None yet</td>
 </tr>
 <tr>
-<td><a href="https://en.wikipedia.org/wiki/Sinclair_QL">Sinclair QL</a></td>
-<td>Not available</td>
-<td>Filehost does not have newest version, try Github</td>
-<td><a href="https://github.com/dfernande132/QL4M65">Github</a></td>
-<td><a href="https://discord.com/channels/719326990221574164/1533550109449650277">Discord</a></td>
-</tr>
-<tr>
 <td><a href="https://en.wikipedia.org/wiki/TI-99/4A">TI-99/4A</a></td>
 <td><a href="https://github.com/zeldin/Mega99/blob/master/README.md">Docs</a></td>
 <td><a href="https://files.mega65.org?id=a25ce133-ed07-4ef7-8495-179d69c43ed0">Filehost</a></td>
 <td><a href="https://github.com/zeldin/Mega99">Github</a></td>
 <td><a href="https://discord.com/channels/719326990221574164/1298374231784165376">Discord</a></td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/ZX_Spectrum_Next">ZX Spectrum Next</a></td>
+<td><a href="https://github.com/freemchr/MegaZXNext/blob/master/README.md">Docs</a></td>
+<td><a href="https://files.mega65.org?id=783ae649-e86a-419b-b61b-c09ffea653ca">Filehost</a></td>
+<td><a href="https://github.com/freemchr/MegaZXNext">Github</a></td>
+<td>None Yet</td>
 </tr>
 <tr>
 <td><a href="https://en.wikipedia.org/wiki/ZX_Spectrum">ZX Spectrum</a></td>
@@ -214,28 +212,46 @@
 </tr>
 </tbody></table>
 <h2 id="work-in-progress-computer-core-releases">Work-in-Progress Computer Core Releases</h2>
-<p>This is a list of Cores that are not finalized yet and need more testing and might get several updates every week. Therefore we only put links to the Discord and the Github issues page, but no direct download links here - unless there is no Discord yet.
+<p>This is a list of Cores that are not finalized or well documented or missing an issue tracker and need more testing and might get several updates every week. Therefore we only put links to the Discord and the Github issues page, but no direct download links here - unless there is no Discord yet.
 Expect errors, missing menu items or other strange effects. Please test and post your issues, <em>preferably to the Github issues</em>, so that the developers can follow up.
-Cores marked as <strong>wants more testing</strong> already have a couple of users testing and submitting reports. <strong>NEEDS testing</strong> is for Cores that really have not enough people yet testing and filing reports.</p><table>
+Cores marked as <strong>wants more testing</strong> already have a couple of users testing and submitting reports. <strong>NEEDS testing</strong> is for Cores that really have not enough people yet testing and filing reports. Some Cores are completely untested and only here for reference reasons.</p><table>
 <thead>
 <tr>
 <th>Home Computer System</th>
-<th>Link 1</th>
-<th>Link 2</th>
+<th>Discord Discussion</th>
+<th>Github Issues Page</th>
 <th>Comment</th>
 </tr>
 </thead>
 <tbody><tr>
+<td>486 (Intel 80486 based PC)</td>
+<td><a href="https://discord.com/channels/719326990221574164/1565889512846921859">Discord</a></td>
+<td><a href="https://github.com/TiwazM/z486MEGA65/issues">Issues</a></td>
+<td>Complete 486-PC with Win95 capability, still in early Beta</td>
+</tr>
+<tr>
 <td>Amiga 500 (V2)</td>
 <td><a href="https://discord.com/channels/719326990221574164/1313409877393276948">Discord</a></td>
 <td><a href="https://github.com/sy2002/AExp/issues">Issues</a></td>
-<td>Now supports the MEGA65 disk drive. Still in Beta. Download at <a href="https://sy2002.de/dl/AExp-WIP-V2-B1.zip">https://sy2002.de/dl/AExp-WIP-V2-B1.zip</a> <strong>Wants more testing</strong></td>
+<td>Now supports the MEGA65 disk drive. Still in Beta. Download at <a href="https://sy2002.de/dl/AExp-WIP-V2-B3.zip">https://sy2002.de/dl/AExp-WIP-V2-B3.zip</a> <strong>Wants more testing</strong></td>
 </tr>
 <tr>
 <td>Amiga 600 / 1200</td>
-<td><a href="https://discord.com/channels/719326990221574164/1313409877393276948">Discord</a></td>
+<td><a href="https://discord.com/channels/719326990221574164/1559245451386167386">Discord</a></td>
 <td><a href="https://github.com/johansmolinski/Megamiga/issues">Issues</a></td>
-<td><strong>Currently only for R6 machines.</strong> Adds ECS and AGA as well as harddrive emulation and Ethernet support. <strong>Wants more testing</strong></td>
+<td><strong>Currently only for R6 machines.</strong> Adds OCS and AGA as well as harddrive emulation and Ethernet support. <strong>NEEDS testing</strong></td>
+</tr>
+<tr>
+<td>Amstrad PCW</td>
+<td>None yet</td>
+<td><a href="https://files.mega65.org?id=ec23a68a-2291-4c0a-af89-4a89cec77311">Filehost</a></td>
+<td>Very untested, no source published</td>
+</tr>
+<tr>
+<td>Apple Macintosh</td>
+<td><a href="https://discord.com/channels/719326990221574164/1564342312233082890">Discord</a></td>
+<td></td>
+<td>Early stages</td>
 </tr>
 <tr>
 <td>Atari XL/XE</td>
@@ -244,34 +260,22 @@ Cores marked as <strong>wants more testing</strong> already have a couple of use
 <td>Good compatibilty, some features not yet implemented, <strong>NEEDS testing</strong></td>
 </tr>
 <tr>
-<td>Amstrad PCW</td>
-<td><a href="https://files.mega65.org?id=ec23a68a-2291-4c0a-af89-4a89cec77311">Filehost</a></td>
-<td>N/A</td>
-<td>CP/M Computer from Amstrad, <strong>NEEDS testing</strong></td>
-</tr>
-<tr>
-<td>BIT90</td>
-<td>n/a</td>
-<td>n/a</td>
-<td><a href="https://www.homecomputermuseum.nl/en/collectie/bit-corporation/bit-90/?srsltid=AU7gw4WxrKZ6McOEwC1xgYYsBgl0TxdSQkPB10AU93uVrbUqxOF2KVmC">Description</a>, <a href="https://files.mega65.org?id=af7fdaa0-0a0b-48b4-a739-2a6a709df86e">Filehost</a></td>
-</tr>
-<tr>
-<td>C128</td>
-<td><a href="https://discord.com/channels/719326990221574164/1519078295277404300">Discord</a></td>
-<td><a href="https://github.com/eilers/c128Mega65/issues">Issues</a></td>
-<td>Very complete now, <strong>Wants some more testing</strong></td>
-</tr>
-<tr>
-<td>C16 / Plus4 Extended</td>
-<td><a href="https://discord.com/channels/719326990221574164/1482361321218637964">Discord</a></td>
-<td>n/a</td>
-<td>Currently only on <a href="https://files.mega65.org?id=04585f68-14c0-43ae-8dd5-6448445ac926">Filehost</a> without proper documentation.</td>
+<td>BIT 90</td>
+<td>None yet</td>
+<td><a href="https://github.com/cf2342/BIT90-MEGA65/issues">Issues</a></td>
+<td>Very untested and obscure machine</td>
 </tr>
 <tr>
 <td>C64 (V6 Beta)</td>
 <td><a href="https://discord.com/channels/719326990221574164/794775503818588200">Discord</a></td>
 <td><a href="https://github.com/MJoergen/C64MEGA65/issues">Issues</a></td>
 <td>Changes documented in <a href="https://kugelblitz360.github.io/C64MEGA65DOCS/alphasix.html">Docs</a> <strong>Wants more testing</strong></td>
+</tr>
+<tr>
+<td>Commodore PC10</td>
+<td><a href="https://discord.com/channels/719326990221574164/1564232130924642425">Discord</a></td>
+<td><a href="https://github.com/johansmolinski/pc10-iii/issues">Issues</a></td>
+<td>Commodore PC-XT clone, Core looks complete, <strong>NEEDS testing</strong></td>
 </tr>
 <tr>
 <td>MSX1</td>
@@ -282,14 +286,26 @@ Cores marked as <strong>wants more testing</strong> already have a couple of use
 <tr>
 <td>IMSAI 8080</td>
 <td><a href="https://discord.com/channels/719326990221574164/1555600426697625610">Discord</a></td>
-<td></td>
-<td>Historically interesting machine (War Games) with some bundled software on <a href="https://files.mega65.org?id=805eb9b2-856c-47e8-87ca-2ba921ec94a0">Filehost</a></td>
+<td><a href="https://files.mega65.org?id=805eb9b2-856c-47e8-87ca-2ba921ec94a0">Filehost</a></td>
+<td>Historically interesting machine (Movie “War Games”) with some bundled software</td>
 </tr>
 <tr>
-<td>Spectrum Next</td>
-<td><a href="https://files.mega65.org?id=783ae649-e86a-419b-b61b-c09ffea653ca">Filehost</a></td>
-<td><a href="https://github.com/freemchr/MegaZXNext/issues">Issues</a></td>
-<td><strong>Untested so far</strong></td>
+<td>Sharp X68000</td>
+<td><a href="https://discord.com/channels/719326990221574164/1564739186823663797">Discord</a></td>
+<td><a href="https://github.com/johansmolinski/MegaX/issues">Issues</a></td>
+<td>Japanese Computer with many good Arcade games, <strong>NEEDS testing</strong></td>
+</tr>
+<tr>
+<td>Sinclair QL</td>
+<td><a href="https://discord.com/channels/719326990221574164/1533550109449650277">Discord</a></td>
+<td><a href="https://github.com/dfernande132/QL4M65/issues">Issues</a></td>
+<td>Functional Sinclair QL Core, updated on Github, not Filehost</td>
+</tr>
+<tr>
+<td>TRS-80</td>
+<td>None yet</td>
+<td><a href="https://files.mega65.org?id=c92b9c90-ac15-4f3b-a0dc-042aeed3b8a0">Filehost</a></td>
+<td>Very untested, no source published</td>
 </tr>
 <tr>
 <td>VIC-20 / VC20</td>
@@ -675,7 +691,7 @@ ROMs straight from the SD card and run them at the original MSX1 hardware timing
 about the awesome MiSTer project and about the difference between MiSTer and the equally awesome MEGA65. Watch the video before reading on here, as it will provide you with valuable context.</p><h2 id="when-is-the-next-core-coming-out">When is the next Core coming out?</h2>
 <p>All Core development is done by enthusiasts with day-time jobs who do awesome work for free. Because of this, your expectation should be that a Core may NEVER be released or updated. There are NO promises for specific cores. People are working on those in their spare time, everything is a labour of love and the purchase of the MEGA65 does not entitle you to any Core (but the original MEGA65 Core).</p><h2 id="can-i-run-other-fpga-based-cores-on-mega65">Can I run other FPGA-based Cores on MEGA65?</h2>
 <p>Unfortunately you can not take FPGA Cores written for MiSTer or the Analogue Pocket and run them straight on the MEGA65, but it is possible to convert Cores written for other systems. There is updated documentation on a programming framework called MISTer2MEGA65 which can help you with converting existing cores. Please start here:</p><p><a href="https://github.com/sy2002/MiSTer2MEGA65/wiki">https://github.com/sy2002/MiSTer2MEGA65/wiki</a></p><h2 id="can-you-add-my-new-core-to-this-list">Can you add my new core to this list?</h2>
-<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <kbd><a href="mailto:&#98;&#x6f;&#114;&#105;&#x73;&#64;&#100;&#x72;&#101;&#105;&#115;&#x65;&#99;&#104;&#x7a;&#x69;&#x67;&#x2e;&#110;&#x65;&#x74;">&#98;&#x6f;&#114;&#105;&#x73;&#64;&#100;&#x72;&#101;&#105;&#115;&#x65;&#99;&#104;&#x7a;&#x69;&#x67;&#x2e;&#110;&#x65;&#x74;</a></kbd>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
+<p>I am checking the MEGA65 filehost regularly for Core updates and try to update this list within a matter of days, if not hours. If for any reason I have missed an update or you have a release that is not available on the file host, write me an E-Mail to <kbd><a href="mailto:&#98;&#111;&#x72;&#105;&#x73;&#64;&#x64;&#114;&#x65;&#105;&#x73;&#x65;&#x63;&#x68;&#x7a;&#105;&#103;&#46;&#110;&#101;&#116;">&#98;&#111;&#x72;&#105;&#x73;&#64;&#x64;&#114;&#x65;&#105;&#x73;&#x65;&#x63;&#x68;&#x7a;&#105;&#103;&#46;&#110;&#101;&#116;</a></kbd>. Updates on Work-in-Progress are also very welcome.</p><h2 id="i-have-additional-questions">I have additional questions!</h2>
 <p>The best place to discuss is the MEGA65 Discord and the specific channel for Alternate Cores, which can be found here:</p><p><a href="https://discord.com/channels/719326990221574164/1177364456896999485">https://discord.com/channels/719326990221574164/1177364456896999485</a></p><p>Additionally you can try the MEGA65 discussion board here (mainly in German language):</p><p><a href="https://www.forum64.de/index.php?board/457-mega65/">https://www.forum64.de/index.php?board/457-mega65/</a></p><h2 id="where-are-the-cores">Where are the cores?</h2>
 <h1 id="home-computers"><a href="computer-cores.html">Home Computers</a></h1>
 <h1 id="arcade-games"><a href="arcade-cores.html">Arcade Games</a></h1>
